@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Team HTML</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/library/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/preloader-default.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/demo-switcher.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/nike.css" rel="stylesheet" type="text/css" />
+    
+    <!-- 
+    
+    Enable one styles which the you want
+    
+    <link href="css-min/soccer.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/hockey.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/basketball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/football.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/baseball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/dota.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/csgo.min.css" rel="stylesheet" type="text/css" />
+    
+    All libraries included in this css, concating rules in /grunt/cssmin.js
+    Use grunt default task for creating this files
+    
+    -->
+</head>
+
+<body>
+
+	<div class="preloader-wrapper" id="preloader">
+    <div class="motion-line dark-big"></div>
+    <div class="motion-line yellow-big"></div>
+    <div class="motion-line dark-small"></div>
+    <div class="motion-line yellow-normal"></div>
+    <div class="motion-line yellow-small1"></div>
+    <div class="motion-line yellow-small2"></div>
+</div>
+
+    
+
+<div id="top" class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 hidden-sm hidden-xs">
+                <div class="top-contacts">
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="contacts">
+                        <li><a href="club-stats.html" class="CL">CLUB STATS</a></li>
+                        <li><a href="upcoming-match.html">UPCOMING MATCH</a></li>
+                        <li><a href="amateurs.html">AMATEURS</a></li>
+                        
+
+                        
+                    </ul>
+                </div>
+            </div>
+            <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+              </svg></a>
+            <div class="col-md-5">
+                <div class="top-language">
+                    <ul class="list">
+                        <li class="dropdown">
+                            <a href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="dt" data-toggle="dropdown" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4H2.255a7.025 7.025 0 0 1 3.072-2.472 6.7 6.7 0 0 0-.597.933c-.247.464-.462.98-.64 1.539zm-.582 3.5h-2.49c.062-.89.291-1.733.656-2.5H3.82a13.652 13.652 0 0 0-.312 2.5zM4.847 5H7.5v2.5H4.51A12.5 12.5 0 0 1 4.846 5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5H7.5V11H4.847a12.5 12.5 0 0 1-.338-2.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12H7.5v2.923c-.67-.204-1.335-.82-1.887-1.855A7.97 7.97 0 0 1 5.145 12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11H1.674a6.958 6.958 0 0 1-.656-2.5h2.49c.03.877.138 1.718.312 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12h2.355a7.967 7.967 0 0 1-.468 1.068c-.552 1.035-1.218 1.65-1.887 1.855V12zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5h-2.49A13.65 13.65 0 0 0 12.18 5h2.146c.365.767.594 1.61.656 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"/>
+                              </svg></a> 
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"><img src="images/common/fr-flag.png" alt="language">FR</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/en-flag.png" alt="language">EN</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/ru-flag.png" alt="language">RU</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/soccer/indo.png" alt="language">IND</a>
+                                </li>
+                            </ul>
+                        </li>
+                      
+                    </ul>
+                    
+                </div>
+               
+                    <div class="top-search">
+                            <form>
+                                    <input type="text" name="text">
+                                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                    </div>
+
+                    <div class="clear"></div>
+                    
+            </div>
+        </div>
+        <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+            <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+          </svg></a>
+        </div>
+    </div>
+    
+</div>
+
+<!--ESPORT TEAM LANDING HEADER BEGIN-->
+<div class="main-menu-wrap sticky-menu"></div>
+<div id="esport-team-landing-header" class="esport-team-landing-header">  
+    <div class="container">
+       
+            <button type="button" data-toggle="collapse" data-target="#landing-header" aria-expanded="false" class="navbar-toggle">
+                <i class="fa fa-bars" aria-hidden="false"></i>
+            </button>
+            
+            <center>
+          
+                    <center>
+                    <a href="Kalurfc.html"><img src="images/common/store.png" class="l"></a>
+                </center>
+                
+            
+                            
+                        </div>
+                </div>
+                
+                                
+            </div>
+        </div>
+    </center>
+    </div>
+</div>
+<!--MAIN MENU WRAP END-->
+<div class="gg">
+    <h5></h5>
+</div>
+
+    <!--BREADCRUMBS BEGIN-->
+
+<!--BREADCRUMBS END-->
+
+    <!--STORE WRAP BEGIN-->
+
+    <div class="store-wrap">
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-left">
+                <div class="sidebar col-xs-6 col-sm-6 col-md-3 sidebar-offcanvas" id="sidebar">
+                    <div class="sidebar-menu-wrap">
+                        <h6>Categories</h6>
+                        <ul class="categories-list">
+                            <li>
+                                <a href="#"><span class="count">4</span>News</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="count">22</span>Competitions & Reviews</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><span class="count">12</span>News</a></li>
+                                    <li><a href="#"><span class="count">10</span>Competitions & Reviews</a></li>
+                                    <li><a href="#"><span class="count">9</span>Interviews</a></li>
+                                    <li><a href="#"><span class="count">8</span>Highlights</a></li>
+                                    <li><a href="#"><span class="count">7</span>Other</a></li>	
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="count">4</span>Interviews</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="count">4</span>Highlights</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="count">4</span>Other</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="filter-wrap">
+                        <h6>Filters</h6>
+                        <div class="filter-slider">
+                            <div class="top">
+                                <label for="amount">Price</label>
+                                <input type="text" id="amount" readonly="" name="amount">
+                            </div>
+                            <div class="ui-slider">
+                            </div>
+                        </div>
+                        <div class="filter-items-wrap">
+                            <div class="filter-title">Sport</div>
+                            <div class="filter-item">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test1">
+                                        <label for="test1">Lifestyle</label>
+                                    </li>
+                                    <li>
+                                        <input checked="" type="checkbox" class="filter-check" id="test2">
+                                        <label for="test2">Running</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test3">
+                                        <label for="test3">Football</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test4">
+                                        <label for="test4">Basketball</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test5">
+                                        <label for="test5">Gym &amp; Training</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test6">
+                                        <label for="test6">Skateboarding</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test7">
+                                        <label for="test7">Tennis</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test8">
+                                        <label for="test8">Golf</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test9">
+                                        <label for="test9">American Football</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test10">
+                                        <label for="test10">Athletics</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test11">
+                                        <label for="test11">Surf &amp; Swimming</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="filter-title">Brand</div>	
+                            <div class="filter-item">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test12">
+                                        <label for="test12">Adidas</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test13">
+                                        <label for="test13">Hueabas</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test14">
+                                        <label for="test14">Other</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="filter-title">Fit</div>	
+                            <div class="filter-item">
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test15">
+                                        <label for="test15">Slim</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test16">
+                                        <label for="test16">Tight</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" class="filter-check" id="test17">
+                                        <label for="test17">Loose</label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="filter-title">Colors</div>	
+                            <div class="color-filter-item">
+                                <ul>
+                                    <li>
+                                        <label class="color-check green">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check black">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check purple">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check gray">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check red">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check green">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <label class="color-check black">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check purple">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check gray">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="color-check white">
+                                            <input type="checkbox">
+                                            <span class="check"><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="filter-title">Sizes</div>
+                            <div class="size-filter-item">
+                                <ul>
+                                    <li>
+                                        <label class="size-check">
+                                            <input type="checkbox">
+                                            <span class="size">xs</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="size-check">
+                                            <input type="checkbox">
+                                            <span class="size">s</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="size-check">
+                                            <input type="checkbox">
+                                            <span class="size">m</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="size-check">
+                                            <input type="checkbox">
+                                            <span class="size">l</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="size-check">
+                                            <input type="checkbox">
+                                            <span class="size">xl</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="size-check">
+                                            <input type="checkbox">
+                                            <span class="size">xxl</span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="size-check">
+                                            <input type="checkbox">
+                                            <span class="size">xxxl</span>
+                                        </label>
+                                    </li>
+                                </ul>	
+                            </div>	
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-9">
+                    <p class="hidden-md hidden-lg">
+                        <button type="button" class="btn sidebar-btn" data-toggle="offcanvas" title="Toggle sidebar">sidebar</button>
+                    </p>
+                    <h6>TOPI</h6>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="store-list-item">
+                                <div>
+                                    <a href="product.html">
+                                        <img src="images/soccer/tp1.jpg" alt="product">
+                                    </a>
+                                    <div class="info">
+                                        <span class="name">TOPI KALUR </span>
+                                        <span class="price">IDR.110.000</span>	
+                                        <div class="btn-wrap">
+                                            <button class="btn small">add to cart</button>
+                                            <button class="btn small">Details</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="store-list-item">
+                                <div>
+                                    <a href="product.html">
+                                        <img src="images/soccer/tp2.jpg" alt="product">
+                                    </a>
+                                    <div class="info">
+                                        <span class="name">TOPI KALUR  </span>
+                                        <span class="price">IDR.110.000</span>	
+                                        <div class="btn-wrap">
+                                            <button class="btn small">add to cart</button>
+                                            <button class="btn small">Details</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="store-list-item">
+                                <div>
+                                    <a href="product.html">
+                                        <img src="images/soccer/tp3.jpg" alt="product">
+                                    </a>
+                                    <div class="info">
+                                        <span class="name">TOPI KALUR BEST </span>
+                                        <span class="price">IDR.170.000</span>	
+                                        <div class="btn-wrap">
+                                            <button class="btn small">add to cart</button>
+                                            <button class="btn small">Details</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="store-list-item">
+                                <div>
+                                    <a href="product.html">
+                                        <img src="images/soccer/ce1.jpg" alt="product">
+                                    </a>
+                                    <div class="info">
+                                        <span class="name">CELANA PENDEK</span>
+                                        <span class="price">IDR.130.000</span>	
+                                        <div class="btn-wrap">
+                                            <button class="btn small">add to cart</button>
+                                            <button class="btn small">Details</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="store-list-item">
+                                <div>
+                                    <a href="product.html">
+                                        <img src="images/soccer/ce2.jpg" alt="product">
+                                    </a>
+                                    <div class="info">
+                                        <span class="name">CELANA PANJANG </span>
+                                        <span class="price">IDR.180.000</span>	
+                                        <div class="btn-wrap">
+                                            <button class="btn small">add to cart</button>
+                                            <button class="btn small">Details</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="store-list-item">
+                                <div>
+                                    <a href="product.html">
+                                        <img src="images/soccer/ce2.jpg" alt="product">
+                                    </a>
+                                    <div class="info">
+                                        <span class="name">CELANA JOGGER PANJANG LOGO </span>
+                                        <span class="price">RP.180.000</span>	
+                                        <div class="btn-wrap">
+                                            <button class="btn small">add to cart</button>
+                                            <button class="btn small">Details</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="pagination-wrap">
+                                <ul class="pagination">
+                                    <li><a href="store.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+                                    <li><a href="store.html">1</a></li>
+                                    <li class="active"><a href="store2.html">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+                      
+        </div>
+
+        <div class="store-banner position-relative">
+		<div class="store-banner-info">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title">official <span>apparel</span></div>
+						<a href="store.html" class="btn">Details</a>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+        <!--MAIN SPONSOR SLIDER BEGIN-->
+<div class="main-sponsor-slider-background">
+<div id="main-sponsor-slider" class="carousel slide main-sponsor-slider" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 text-center">
+                        <img class="sponsor-icons" src="images/soccer/do.png" alt="sponsor-image">	
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <img class="sponsor-icons" src="images/soccer/cor.png" alt="sponsor-image">	
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <img  class="sponsor-icons dota-csgo-image" src="images/soccer/food.png" alt="sponsor-image">	
+                    </div>
+                </div>
+            </div>	
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 text-center">
+                        <img class="sponsor-icons" src="images/soccer/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" alt="sponsor-image">	
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <img  class="sponsor-icons" src="images/soccer/top.jpg" alt="sponsor-image">	
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <img class="sponsor-icons dota-csgo-image" src="images/soccer/id.jpg" alt="sponsor-image">
+                    </div>
+                </div>
+            </div>	
+        </div>
+        <!-- Controls -->
+        <a class="nav-arrow left-arrow" href="#main-sponsor-slider" role="button" data-slide="prev">
+                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                <span class="sr-only">Previous</span>
+        </a>
+        <a class="nav-arrow right-arrow" href="#main-sponsor-slider" role="button" data-slide="next">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                <span class="sr-only">Next</span>
+        </a>
+    </div>	
+</div>
+</div>
+<!--MAIN SPONSOR SLIDER END-->
+
+    </div>
+
+    <!--STORE WRAP END-->
+
+         <!--MAIN SPONSOR SLIDER BEGIN-->
+         <div class="esport-team-landing-footer">
+            <div class="container">
+                <div class="lgft">
+                    <center>
+                        <a href="https://www.ea.com/sports"><img src="images/soccer/nfl.png" class="logoairfooter8" alt="product-image" id="lf"></a>
+                        <a href="https://all.accor.com/indonesia/index.en.shtml"><img src="images/soccer/ALLac-removebg-preview.png" class="logoairfooter9" alt="product-image" id="lf"></a>
+                        <br>
+                        <a href="https://www.bca.co.id/en/"><img src="images/soccer/Logo Bank BCA.png" class="logoairfooter6" alt="product-image" id="lf"></a>
+                    <a href="http://m.indosatooredoo.com/"><img src="images/soccer/idompet-removebg-preview.png" class="logoairfooter4" alt="product-image" id="lf"></a>
+                    <a href="https://www.indofood.com/"><img src="images/soccer/food.png" class="logoairfooter5" alt="product-image" id="lf"></a>
+                    <a href="https://www.nike.com/id/"><img src="images/common/nike4.png" class="logoairfooter3" alt="product-image" id="lf"></a>
+                    
+                    <a href="http://Tokopedia.com/"><img src="images/soccer/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" class="logoairfooter7" alt="product-image" id="lf"></a>
+                     <hr class="garis">
+                    <div class="col-md-5">
+                        <div class="header">Featured post
+                            <span>
+                                <a class="arrow left" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                                <a class="arrow rigth" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                            </span>
+                        </div>
+                        <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/samboja1.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">25 august</span>
+                                    <span class="name">Internacional inertns</span>
+                                </span>
+                            </a>
+                        </div>
+                           <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/samboja2.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">26 august</span>
+                                    <span class="name">Internacional</span>
+                                </span>
+                            </a>
+                        </div>
+                           <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/lapsam2.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">28 august</span>
+                                    <span class="name">Internacional inertns</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <span class="header">contact us</span>
+                        <span class="welcome">welcome to family</span>
+                        <ul class="contact-list">
+                            <li><span>INDRAMAYU, KANDANGHAUR DS.ERETAN WETAN BLOK PANG PANG 2</span></li>
+                            <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>+62 83148319061</span></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="https://mail.google.com/mail/u/0/?hl=en#inbox">officialkalurfc@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <span class="header">about us</span>
+                        <p>To these in the morning I sent the captain, who was to enter into a parley  with them; in a word, to try them, and tell me whether he thought they might be trusted or not to go on board and surprise the ship.</p>
+                    </div>
+                   <div id="top">
+                        <a href="#top"><img src="images/common/logodark.png" class="logofot" alt="product-image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--ESPORT TEAM LANDING FOOTER LINKS BEGIN-->
+        <div id="footer" class="esport-team-landing-footer-links">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li class="facebook">
+                                <a href="#">
+                                    <span>facebook</span>
+                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#">
+                                    <span>twitter</span>
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="google">
+                                <a href="#">
+                                    <span>google+</span>
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="instagram">
+                                <a href="#">
+                                    <span>instagram</span>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#">
+                                    <span>youtube</span>
+                                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--FOOTER END-->
+
+    <script type="text/javascript" src="js/library/jquery.js"></script>
+<script type="text/javascript" src="js/library/jquery-ui.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.js"></script>
+<script type="text/javascript" src="js/library/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/library/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/library/jcarousel.connected-carousels.js"></script>
+<script type="text/javascript" src="js/library/owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/progressbar.js"></script>
+<script type="text/javascript" src="js/library/jquery.bracket.min.js"></script>
+<script type="text/javascript" src="js/library/chartist.js"></script>
+<script type="text/javascript" src="js/library/Chart.js"></script>
+<script type="text/javascript" src="js/library/fancySelect.js"></script>
+<script type="text/javascript" src="js/library/isotope.pkgd.js"></script>
+<script type="text/javascript" src="js/library/imagesloaded.pkgd.js"></script>
+
+<script type="text/javascript" src="js/jquery.team-coundown.js"></script>
+<script type="text/javascript" src="js/matches-slider.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/matches_broadcast_listing.js"></script>
+<script type="text/javascript" src="js/news-line.js"></script>
+<script type="text/javascript" src="js/match_galery.js"></script>
+<script type="text/javascript" src="js/main-club-gallery.js"></script>
+<script type="text/javascript" src="js/product-slider.js"></script>
+<script type="text/javascript" src="js/circle-bar.js"></script>
+<script type="text/javascript" src="js/standings.js"></script>
+<script type="text/javascript" src="js/shop-price-filter.js"></script>
+<script type="text/javascript" src="js/timeseries.js"></script>
+<script type="text/javascript" src="js/radar.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/diagram.js"></script>
+<script type="text/javascript" src="js/bi-polar-diagram.js"></script>
+<script type="text/javascript" src="js/label-placement-diagram.js"></script>
+<script type="text/javascript" src="js/donut-chart.js"></script>
+<script type="text/javascript" src="js/animate-donut.js"></script>
+<script type="text/javascript" src="js/advanced-smil.js"></script>
+<script type="text/javascript" src="js/svg-path.js"></script>
+<script type="text/javascript" src="js/pick-circle.js"></script>
+<script type="text/javascript" src="js/horizontal-bar.js"></script>
+<script type="text/javascript" src="js/gauge-chart.js"></script>
+<script type="text/javascript" src="js/stacked-bar.js"></script>
+
+<script type="text/javascript" src="js/library/chartist-plugin-legend.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-threshold.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-pointlabels.js"></script>
+
+<script type="text/javascript" src="js/treshold.js"></script>
+<script type="text/javascript" src="js/visible.js"></script>
+<script type="text/javascript" src="js/anchor.js"></script>
+<script type="text/javascript" src="js/landing_carousel.js"></script>
+<script type="text/javascript" src="js/landing_sport_standings.js"></script>
+<script type="text/javascript" src="js/twitterslider.js"></script>
+<script type="text/javascript" src="js/champions.js"></script>
+<script type="text/javascript" src="js/landing_mainnews_slider.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/video_slider.js"></script>
+<script type="text/javascript" src="js/footer_slides.js"></script>
+<script type="text/javascript" src="js/player_test.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+	<!--DEMO SWITCHER BEGIN-->
+
+<!--DEMO SWITCHER END-->
+
+<script type="text/javascript" src="dev-assets/demo-switcher.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Team HTML</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/library/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/preloader-default.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/demo-switcher.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/nike.css" rel="stylesheet" type="text/css" />
+    
+    <!-- 
+    
+    Enable one styles which the you want
+    
+    <link href="css-min/soccer.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/hockey.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/basketball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/football.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/baseball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/dota.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/csgo.min.css" rel="stylesheet" type="text/css" />
+    
+    All libraries included in this css, concating rules in /grunt/cssmin.js
+    Use grunt default task for creating this files
+    
+    -->
+</head>
+
+<body>
+
+	<div class="preloader-wrapper" id="preloader">
+    <div class="motion-line dark-big"></div>
+    <div class="motion-line yellow-big"></div>
+    <div class="motion-line dark-small"></div>
+    <div class="motion-line yellow-normal"></div>
+    <div class="motion-line yellow-small1"></div>
+    <div class="motion-line yellow-small2"></div>
+</div>
+
+    
+
+    
+<div id="top" class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 hidden-sm hidden-xs">
+                <div class="top-contacts">
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="contacts">
+                        <li><a href="Kalurfc.html" class="CL">HOME</a></li>
+                        <li><a href="club-stats.html" class="CL">CLUB STATS</a></li>
+                        <li><a href="upcoming-match.html">UPCOMING MATCH</a></li>
+                       
+
+                        
+                    </ul>
+                </div>
+            </div>
+            <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+              </svg></a>
+            <div class="col-md-5">
+                <div class="top-language">
+                    <ul class="list">
+                        <li class="dropdown">
+                            <a href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="dt" data-toggle="dropdown" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4H2.255a7.025 7.025 0 0 1 3.072-2.472 6.7 6.7 0 0 0-.597.933c-.247.464-.462.98-.64 1.539zm-.582 3.5h-2.49c.062-.89.291-1.733.656-2.5H3.82a13.652 13.652 0 0 0-.312 2.5zM4.847 5H7.5v2.5H4.51A12.5 12.5 0 0 1 4.846 5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5H7.5V11H4.847a12.5 12.5 0 0 1-.338-2.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12H7.5v2.923c-.67-.204-1.335-.82-1.887-1.855A7.97 7.97 0 0 1 5.145 12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11H1.674a6.958 6.958 0 0 1-.656-2.5h2.49c.03.877.138 1.718.312 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12h2.355a7.967 7.967 0 0 1-.468 1.068c-.552 1.035-1.218 1.65-1.887 1.855V12zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5h-2.49A13.65 13.65 0 0 0 12.18 5h2.146c.365.767.594 1.61.656 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"/>
+                              </svg></a> 
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"><img src="images/common/fr-flag.png" alt="language">FR</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/en-flag.png" alt="language">EN</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/ru-flag.png" alt="language">RU</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/soccer/indo.png" alt="language">IND</a>
+                                </li>
+                            </ul>
+                        </li>
+                      
+                    </ul>
+                    
+                </div>
+               
+                    <div class="top-search">
+                            <form>
+                                    <input type="text" name="text">
+                                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                    </div>
+
+                    <div class="clear"></div>
+                    
+            </div>
+        </div>
+        <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+            <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+          </svg></a>
+        </div>
+    </div>
+    
+</div>
+
+<!--ESPORT TEAM LANDING HEADER BEGIN-->
+<div class="main-menu-wrap sticky-menu"></div>
+<div id="esport-team-landing-header" class="esport-team-landing-header">  
+    <div class="container">
+       
+            <button type="button" data-toggle="collapse" data-target="#landing-header" aria-expanded="false" class="navbar-toggle">
+                <i class="fa fa-bars" aria-hidden="false"></i>
+            </button>
+            
+            <center>
+          
+                    <center>
+                    <a href="Kalurfc.html"><img src="images/common/logo2020.png" class="lg21"></a>
+                </center>
+                
+            
+                            
+                        </div>
+                </div>
+                
+                                
+            </div>
+        </div>
+    </center>
+    </div>
+</div>
+<!--MAIN MENU WRAP END-->
+
+
+      <!--MAIN AMATURE SLIDER END-->
+      <div class="geser">
+    <div class="msp_post_slider" id="amateurs-slider">
+
+        <div class="owl-carousel owl-theme" role="listbox">
+            
+            <div class="item msp_post_slide slide-1" >
+                <div class="slider-caption">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-8">
+                                <h1 class="title">Team 1 - Team 2</h1>
+                                <div class="sub-title">
+                                    FINAL GAME
+                                </div>
+                                <a href="index.html" class="btn">
+                                    Read more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="item msp_post_slide slide-2" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item msp_post_slide slide-3" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Controls -->
+    <a class="nav-arrow left-arrow" href="#main-slider" role="button" data-slide="prev">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="nav-arrow right-arrow" href="#main-slider" role="button" data-slide="next">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+        <span class="sr-only">Next</span>
+    </a>
+
+    <div class="progress-line"><div class="bar"></div></div>
+</div>
+</div>
+  <!--MAIN AMATURE SLIDER END-->
+
+    <!--MAIN BREAKING NEWS BEGIN-->
+<div class="main-breaking-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 col-xs-12">
+                <div class="break-title"><span>Breaking news</span></div>
+            </div>
+            <div class="col-md-10 col-sm-9 col-xs-12">
+                <div id="main-breaking-list" class="carousel slide main-breaking-list" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="news-single.html">
+                                <span class="date">14 SEPT 2020<span>/</span></span>	
+                                <span class="news">HANYA DI KALUR TV+</span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="news-single.html">
+                                <span class="date">14 SEPT 2020<span>/</span></span>	
+                                <span class="news">SAKSIKAN PERTANDINGAN FRENDLY MATCH</span>
+                            </a>
+                        </div>
+                    </div>	
+                    <div class="arrow-wrap">
+                        <!-- Controls -->
+                        <a class="nav-arrow left-arrow" href="#main-breaking-list" role="button" data-slide="prev">
+                            <i class="fa fa-caret-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="nav-arrow right-arrow" href="#main-breaking-list" role="button" data-slide="next">
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MAIN BREAKING NEWS END-->
+
+    <!--MAIN MATCH SHEDULE BEGIN-->
+<div class="main-match-shedule amateurs-match-shedule">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="amateurs-main-match">
+                    <div class="title">FRENDLY MATCH</div>	
+                    <div class="team">
+                        <div class="avatar"><img src="images/soccer/f.png" alt="team-logo"></div>
+                        <div class="text">
+                            <span class="name">KALUR FC</span>
+                            <span class="city">INDONESIA</span>
+                        </div>
+                    </div>
+                    <div class="score">
+                       LIVE	
+                    </div>
+                    <div class="team guest">
+                        <div class="text">
+                            <span class="name">GCB UNITED</span>
+                            <span class="city">INDONESIA</span>
+                        </div>	
+                        <div class="ava"><img src="images/common/logo-condong.png"  width="80px" height="110px" alt="team-logo"></div>
+                    </div>
+                    <div class="title">14 SEPT / 16:00 PM</div>
+                </div>
+            </div>
+            <div class="tutup">
+            <div class="col-md-12"><h6>Latest matches</h6></div>
+            <div class="col-md-12">
+                <ul class="tab-filters" role="tablist">
+                    <li class="active"><a href="#nationalcup" role="tab" data-toggle="tab">National cup</a></li>
+        
+                     <li><a href="#showall" role="tab" data-toggle="tab">Show all</a></li>
+                </ul>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-pane active" id="nationalcup" role="tabpanel">
+                    <div class="col-md-12">
+                        <div class="main-lates-matches">
+                            <a href="matches.html" class="item">
+                                <span class="championship">FUTSAL</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>Team 1 </span></span>
+                                    <span class="score"><span>3:2</span></span>
+                                    <span class="team1"><span>Team 2 </span><span><img src="images/soccer/team-logo4.png" alt="team-logo"></span></span>
+                                </span>
+                              
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">National cup - quarterfinal</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
+                                    <span class="score"><span>6:2</span></span>
+                                    <span class="team1"><span>Team 2</span><span><img src="images/soccer/team-logo4.png" alt="team-logo"></span></span>
+                                </span>
+                               
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="championship" role="tabpanel">
+                    <div class="col-md-12">
+                        <div class="main-lates-matches">
+                            <a href="matches.html" class="item">
+                                <span class="championship">FUTSAL</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/team-logo3.png" alt="team-logo"></span><span>KALUR FC </span></span>
+                                    <span class="score"><span>3:7</span></span>
+                                    <span class="team1"><span>Team 2 Internacionasal</span><span><img src="images/soccer/f.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">Championship - quarterfinal</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>KALUR FC</span></span>
+                                    <span class="score"><span>4:2</span></span>
+                                    <span class="team1"><span>Team 2</span><span><img src="images/soccer/team-logo4.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="friendlies" role="tabpanel">
+                    <div class="col-md-12">
+                        <div class="main-lates-matches">
+                            <a href="matches.html" class="item">
+                                <span class="championship">Friendly match</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
+                                    <span class="score"><span>2:2</span></span>
+                                    <span class="team1"><span>Team 2</span><span><img src="images/soccer/f.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">Friendly match</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>KALUR FC</span></span>
+                                    <span class="score"><span>3:3</span></span>
+                                    <span class="team1"><span>Team 2</span><span><img src="images/soccer/team-logo2.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="showall" role="tabpanel">
+                    <div class="col-md-12">
+                        <div class="main-lates-matches">
+                            <a href="matches.html" class="item">
+                                <span class="championship">National cup - quarterfinal</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>KALUR FC</span></span>
+                                    <span class="score"><span>3:2</span></span>
+                                    <span class="team1"><span>Team 2 </span><span><img src="images/soccer/team-logo4.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">National cup - quarterfinal</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>KALUR FC</span></span>
+                                    <span class="score"><span>3:2</span></span>
+                                    <span class="team1"><span>Team 2</span><span><img src="images/soccer/team-logo4.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">Championship - quarterfinal</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>KALUR FC </span></span>
+                                    <span class="score"><span>9:2</span></span>
+                                    <span class="team1"><span>Team 2 Internacionasal</span><span><img src="images/soccer/team-logo4.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">Championship - quarterfinal</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>KALUR FC</span></span>
+                                    <span class="score"><span>4:0</span></span>
+                                    <span class="team1"><span>Team 2</span><span><img src="images/soccer/team-logo4.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">Friendly match</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/team-logo3.png" alt="team-logo"></span><span>Team 1</span></span>
+                                    <span class="score"><span>2:3</span></span>
+                                    <span class="team1"><span>KALUR FC</span><span><img src="images/soccer/f.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+                            <a href="matches.html" class="item">
+                                <span class="championship">Friendly match</span>
+                                <span class="teams-wrap">
+                                    <span class="team"><span><img src="images/soccer/f.png" alt="team-logo"></span><span>Team 1</span></span>
+                                    <span class="score"><span>3:3</span></span>
+                                    <span class="team1"><span>Team 2</span><span><img src="images/soccer/team-logo2.png" alt="team-logo"></span></span>
+                                </span>
+                                <span class="game-result">(5-4) penalties</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--MAIN MATCH SHEDULE END-->
+
+
+ 
+<!--MAIN CLUB STAFF END-->
+
+
+    <!--SUCCESS STORY BEGIN-->
+<div class="success-story amateurs-success-story">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h4>success story <br>began here</h4>
+                <p>Pabst irony tattooed, synth sriracha selvage pok pok. Wayfarers kinfolk sartorial, helvetica you probably haven't heard of them tumeric venmo deep mixtape semiotics brunch. </p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="icon"><img src="images/common/success-icon.png" alt="success-icon"></div>
+                        <div class="title">Legendary</div>
+                        <p>Next level paleo taxidermy, bespoke messenger bag leggings occupy food truck. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon"><img src="images/common/success-icon1.png" alt="success-icon"></div>
+                        <div class="title">fabulous</div>
+                        <p>Wayfarers kinfolk sartorial, helvetica you probably haven't heard of them tumeric venmo deep v mixtape semiotics brunch. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="wrap position-relative">
+                    <div class="amateurs-success-slogan">
+                        <div class="title">Children and Youth</div>
+                        <div class="big-title">Academy</div>
+                        <a href="about-club.html" class="btn">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+</div>
+<!--SUCCESS STORY END-->
+
+    <!--AMATEURS AWARD BOX BEGIN-->
+<div class="amateurs-award-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="text">
+                    <div class="title">visit our</div>
+                    <div class="big-title">Trophy room</div>
+                    <p>Snackwave tote bag fixie gluten-free, affogato master cleane cronut portland prism knausgaard.  Chartreuse fingerstache gentrify you probably</p>
+                    <a href="trophies.html" class="btn">Details</a>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="am-trophey">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <img src="images/common/am-trophey.png" alt="am-trophey">
+                                <div class="name">National cup</div>
+                                <div class="year">2010</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <img src="images/common/am-trophey1.png" alt="am-trophey">
+                                <div class="name">Championship trophy</div>
+                                <div class="year">2012</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="item">
+                                <img src="images/common/am-trophey2.png" alt="am-trophey">
+                                <div class="name">Super cup</div>
+                                <div class="year">2017</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--AMATEURS AWARD BOX END-->
+
+    <!--MAIN CLUB GALLERY BEGIN-->
+
+<!--MAIN CLUB GALLERY END-->
+
+    <!--SPONSOR BOX BEGIN-->
+
+<!--SPONSOR BOX END-->
+
+    <!--AMATEURS NEWS LIST BEGIN-->
+<div class="amateurs-news-list">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"><h4>Team news</h4></div>
+            <div class="col-md-10 col-xs-9">
+                <ul class="tab-filters" role="tablist">
+                    <li class="active"><a href="#news" role="tab" data-toggle="tab">News</a></li>
+                   
+                </ul>
+            </div>
+            <div class="col-md-2 col-xs-3 text-right">
+
+                <a id="show-all-link" href="#">Show all</a>
+
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="news" role="tabpanel">
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/samboja2.jpg" alt="news-single"></a>
+                            <a href="#" class="name">KALUR FC VS RESCHA FC</a>
+                            <div class="date"><a href="#">26 OCT 2020</a> by <a href="#">TEAM KALUR</a></div>
+                            <p>PERTANDINGAN PERTAMA DI LAPANGAN BOLA</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/lapsam1.jpg" alt="news-single"></a>
+                            <a href="#" class="name">Training</a>
+                            <div class="date"><a href="news-single.html">26 OCT 2020</a> by <a href="#">TEAM KALUR</a></div>
+                            <p>PARA PEMAIN SEDANG MELAKUKAN PEMANASAN SEBELUM BERTANDING</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/samboja1.jpg" alt="news-single"></a>
+                            <a href="#" class="name">KALUR FC VS RESCHA FC</a>
+                                <div class="date"><a href="#">26 OCT 2020</a> by <a href="#">TEAM KALUR</a></div>
+                                <p>PEMAIN KELIHATAN SEMANGAT DI PERTANDINGAN INI</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="highlights" role="tabpanel">
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/tr2.jpg" alt="news-single"></a>
+                            <a href="#" class="name">Test Bozo and Topolo will start against Intertupo</a>
+                            <div class="date"><a href="#">25 Sep 2016</a> by <a href="#">Logan Holmes</a></div>
+                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/tim.jpg" alt="news-single"></a>
+                            <a href="#" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
+                            <div class="date"><a href="#">25 Sep 2016</a> by <a href="#">Logan Holmes</a></div>
+                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/tendang.jpg" alt="news-single"></a>
+                            <a href="#" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
+                            <div class="date"><a href="#">25 Sep 2016</a> by <a href="#">Logan Holmes</a></div>
+                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="interviews" role="tabpanel">
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/amfly.jpg" alt="news-single"></a>
+                            <a href="#" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
+                            <div class="date"><a href="#">25 Sep 2016</a> by <a href="#">Logan Holmes</a></div>
+                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/azir.jpg" alt="news-single"></a>
+                            <a href="#" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
+                            <div class="date"><a href="#">25 Sep 2016</a> by <a href="#">Logan Holmes</a></div>
+                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item">
+                            <a href="#" class="img-wrap"><img src="images/common/tim2.jpg" alt="news-single"></a>
+                            <a href="#" class="name">Bauza: Bozo and Topolo will start against Intertupo</a>
+                            <div class="date"><a href="#">25 Sep 2016</a> by <a href="#">Logan Holmes</a></div>
+                            <p>Snackwave tote bag fixie gluten-free, affogato master cleanse cronut portland prism knausgaard.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--AMATEURS NEWS LIST END-->
+
+    <!--FOOTER BEGIN-->
+    <div class="bgimg">
+        <center>
+            <a href="https://www.nike.com/id/"><img src="images/soccer/jmp.png" class="logoairfooter" alt="product-image" id="lf"></a>
+            <a href="http://m.indosatooredoo.com/"><img src="images/soccer/do.png" class="logoairfooter2" alt="product-image" id="lf"></a>
+         </center>
+          </div>
+        
+            <!--FOOTER BEGIN-->
+        <!--ESPORT TEAM LANDING CONTACT END-->
+        
+        <div class="esport-team-landing-footer">
+            <div class="container">
+                <div class="lgft">
+                    <center>
+                        <a href="https://www.ea.com/sports"><img src="images/soccer/nfl.png" class="logoairfooter8" alt="product-image" id="lf"></a>
+                        <a href="https://all.accor.com/indonesia/index.en.shtml"><img src="images/soccer/ALLac-removebg-preview.png" class="logoairfooter9" alt="product-image" id="lf"></a>
+                        <br>
+                        <a href="https://www.bca.co.id/en/"><img src="images/soccer/Logo Bank BCA.png" class="logoairfooter6" alt="product-image" id="lf"></a>
+                    <a href="http://m.indosatooredoo.com/"><img src="images/soccer/idompet-removebg-preview.png" class="logoairfooter4" alt="product-image" id="lf"></a>
+                    <a href="https://www.indofood.com/"><img src="images/soccer/food.png" class="logoairfooter5" alt="product-image" id="lf"></a>
+                    <a href="https://www.nike.com/id/"><img src="images/common/nike4.png" class="logoairfooter3" alt="product-image" id="lf"></a>
+                    
+                    <a href="http://Tokopedia.com/"><img src="images/soccer/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" class="logoairfooter7" alt="product-image" id="lf"></a>
+                     <hr class="garis">
+                    <div class="col-md-5">
+                        <div class="header">Featured post
+                            <span>
+                                <a class="arrow left" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                                <a class="arrow rigth" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                            </span>
+                        </div>
+                        <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/samboja1.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">25 august</span>
+                                    <span class="name">Internacional inertns</span>
+                                </span>
+                            </a>
+                        </div>
+                           <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/samboja2.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">26 august</span>
+                                    <span class="name">Internacional</span>
+                                </span>
+                            </a>
+                        </div>
+                           <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/lapsam2.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">28 august</span>
+                                    <span class="name">Internacional inertns</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <span class="header">contact us</span>
+                        <span class="welcome">welcome to family</span>
+                        <ul class="contact-list">
+                            <li><span>INDRAMAYU, KANDANGHAUR DS.ERETAN WETAN BLOK PANG PANG 2</span></li>
+                            <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>+62 83148319061</span></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="https://mail.google.com/mail/u/0/?hl=en#inbox">officialkalurfc@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <span class="header">about us</span>
+                        <p>To these in the morning I sent the captain, who was to enter into a parley  with them; in a word, to try them, and tell me whether he thought they might be trusted or not to go on board and surprise the ship.</p>
+                    </div>
+                   <div id="top">
+                        <a href="#top"><img src="images/common/logodark.png" class="logofot" alt="product-image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--ESPORT TEAM LANDING FOOTER LINKS BEGIN-->
+        <div id="footer" class="esport-team-landing-footer-links">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li class="facebook">
+                                <a href="#">
+                                    <span>facebook</span>
+                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#">
+                                    <span>twitter</span>
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="google">
+                                <a href="#">
+                                    <span>google+</span>
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="instagram">
+                                <a href="#">
+                                    <span>instagram</span>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#">
+                                    <span>youtube</span>
+                                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--FOOTER END-->
+
+    <script type="text/javascript" src="js/library/jquery.js"></script>
+<script type="text/javascript" src="js/library/jquery-ui.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.js"></script>
+<script type="text/javascript" src="js/library/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/library/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/library/jcarousel.connected-carousels.js"></script>
+<script type="text/javascript" src="js/library/owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/progressbar.js"></script>
+<script type="text/javascript" src="js/library/jquery.bracket.min.js"></script>
+<script type="text/javascript" src="js/library/chartist.js"></script>
+<script type="text/javascript" src="js/library/Chart.js"></script>
+<script type="text/javascript" src="js/library/fancySelect.js"></script>
+<script type="text/javascript" src="js/library/isotope.pkgd.js"></script>
+<script type="text/javascript" src="js/library/imagesloaded.pkgd.js"></script>
+
+<script type="text/javascript" src="js/jquery.team-coundown.js"></script>
+<script type="text/javascript" src="js/matches-slider.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/matches_broadcast_listing.js"></script>
+<script type="text/javascript" src="js/news-line.js"></script>
+<script type="text/javascript" src="js/match_galery.js"></script>
+<script type="text/javascript" src="js/main-club-gallery.js"></script>
+<script type="text/javascript" src="js/product-slider.js"></script>
+<script type="text/javascript" src="js/circle-bar.js"></script>
+<script type="text/javascript" src="js/standings.js"></script>
+<script type="text/javascript" src="js/shop-price-filter.js"></script>
+<script type="text/javascript" src="js/timeseries.js"></script>
+<script type="text/javascript" src="js/radar.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/diagram.js"></script>
+<script type="text/javascript" src="js/bi-polar-diagram.js"></script>
+<script type="text/javascript" src="js/label-placement-diagram.js"></script>
+<script type="text/javascript" src="js/donut-chart.js"></script>
+<script type="text/javascript" src="js/animate-donut.js"></script>
+<script type="text/javascript" src="js/advanced-smil.js"></script>
+<script type="text/javascript" src="js/svg-path.js"></script>
+<script type="text/javascript" src="js/pick-circle.js"></script>
+<script type="text/javascript" src="js/horizontal-bar.js"></script>
+<script type="text/javascript" src="js/gauge-chart.js"></script>
+<script type="text/javascript" src="js/stacked-bar.js"></script>
+
+<script type="text/javascript" src="js/library/chartist-plugin-legend.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-threshold.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-pointlabels.js"></script>
+
+<script type="text/javascript" src="js/treshold.js"></script>
+<script type="text/javascript" src="js/visible.js"></script>
+<script type="text/javascript" src="js/anchor.js"></script>
+<script type="text/javascript" src="js/landing_carousel.js"></script>
+<script type="text/javascript" src="js/landing_sport_standings.js"></script>
+<script type="text/javascript" src="js/twitterslider.js"></script>
+<script type="text/javascript" src="js/champions.js"></script>
+<script type="text/javascript" src="js/landing_mainnews_slider.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/video_slider.js"></script>
+<script type="text/javascript" src="js/footer_slides.js"></script>
+<script type="text/javascript" src="js/player_test.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+	<!--DEMO SWITCHER BEGIN-->
+
+<!--DEMO SWITCHER END-->
+
+<script type="text/javascript" src="dev-assets/demo-switcher.js"></script>
+</body>
+
+
+</html>

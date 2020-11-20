@@ -1,0 +1,641 @@
+#nike{
+
+  margin-right: -90px;
+  margin-top: -78px;
+}
+#air {
+    margin-top: -47px;
+  margin-left: 95px;
+}
+
+#o{
+  color: red;
+   
+}
+#M{
+    margin-left: 240px;
+    height: 10px;
+    margin-top: -15px;
+
+}
+
+.lg{
+  height: 90px;
+  width: 87px;
+  margin-right: 30px;
+}
+.main-menu nav{
+  margin-right: -90px;
+  
+}
+
+.logofot{
+ height: 90px;
+ width: 90px;
+ margin-left: 200px;
+ margin-bottom: -10px;
+ background: transparent;
+}
+.list3 {
+  font-weight: 700;
+  font-weight: bold;
+  margin-right: 10%;
+  padding-top: -1%;
+}
+.list3 ul li {
+    padding-top: 10%;
+  }
+
+.list3 li a:hover{
+  background:#a78f0b;
+}
+.pr {
+  margin-right: -700px;
+  margin-top: 15px;
+  width: 27px;
+  height: 27px;
+  color: white;
+  
+}
+.dt {
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+
+.ST {
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.activet {
+  padding-bottom: 2px;
+  padding-top: 2px;
+background: #001127;
+
+}
+.lg2{
+  height: 75px;
+  width: 75px;
+}
+.lg21{
+  height: 75px;
+  width: 75px;
+  margin-top: 10px;
+}
+.lg3{
+  height: 90px;
+  width: 87px;
+margin-bottom: -130px;
+  
+}
+
+/* logo store */
+.l{
+  height: 70px;
+  width: 210px;
+margin-bottom: -130px;
+}
+.team2 {
+  margin-right: 37px;
+}
+
+.contacts li a:hover{
+  background:#a78f0b;
+}
+.contacts>li.active a span:before{
+  color: aqua;
+}
+.lgft{
+  margin-bottom: 5%;
+}
+.logoairfooter{
+  height: 100px;
+  width: 90px;
+  border-right: solid;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  opacity: 10;
+  -webkit-filter: grayscale();
+  filter: grayscale(100%);
+}
+.logoairfooter2{
+  height: 75px;
+  width: 200px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+.logoairfooter3{
+  height: 120px;
+  width: 150px;
+  margin-left: 3%;
+  margin-right: 3%;
+ 
+  color: white;
+}
+.logoairfooter4{
+  height: 50px;
+  width: 150px;
+  
+  margin-right: 4%;
+  margin-left: 4%;
+}
+.logoairfooter5{
+  height: 50px;
+  width: 150px;
+  
+}
+.logoairfooter6{
+  height: 50px;
+  width: 130px;
+ 
+  
+}
+.logoairfooter7{
+  height: 50px;
+  width: 150px;
+}
+.logoairfooter8{
+  height: 50px;
+  width: 190px;
+  margin-bottom: 3%;
+}
+  .logoairfooter9{
+    height: 70px;
+    width: 150px;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+
+.garis {
+  border-bottom: 1px solid #ff0000;
+}
+.globe {
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin-right: -100px;
+ padding-top: -5000px;
+}
+
+.self{
+  color: black;
+  width: 25px;
+  height: 25px;
+  margin-top: -5000px;
+}
+
+.baru{
+  background-color: #001127;
+}
+
+.bgktv{
+  background-image: url(../images/soccer/player-stat-bg.jpg);
+  padding-bottom: 20px;
+}
+
+.bgimg{
+  background-color: #ffffff;
+  
+}
+
+.vm{
+     margin-bottom: 2%;
+    /*ubah warna background*/
+    background-color:  #001127;
+    /*ubah warna teks*/
+    color: white;
+    /*menghilangkan border*/
+    border: none;
+/*atur sudut border*/
+    border-radius: 5px;
+    /*efek bayangan*/
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    /*teks rata tengah*/
+    text-align: center;
+    /*ubah jarak margin/luar*/
+    margin: 5px 2px;
+    /*ubah jarak padding/dalam*/
+    padding: 10px 15px;
+    /*ubah tampilan kursor ketika berada diatas elemen*/
+    cursor: pointer;
+  }
+  .vm:hover{
+    /*ubah warna background ketika kursor berada diatas elemen*/
+    background-color: #a78f0b;
+  }
+  .vm2{
+ 
+    /*ubah warna background*/
+    background-color:   #a78f0b;
+    /*ubah warna teks*/
+    color: white;
+    /*menghilangkan border*/
+    border: none;
+/*atur sudut border*/
+    border-radius: 5px;
+    /*efek bayangan*/
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    /*teks rata tengah*/
+    text-align: center;
+    /*ubah jarak margin/luar*/
+    margin: 5px 2px;
+    /*ubah jarak padding/dalam*/
+    padding: 10px 15px;
+    /*ubah tampilan kursor ketika berada diatas elemen*/
+    cursor: pointer;
+    
+  }
+  .vm2:hover{
+    /*ubah warna background ketika kursor berada diatas elemen*/
+    background-color: #0b76a7;
+  }
+  .vm3{
+ 
+    /*ubah warna background*/
+    background-color:   #a78f0b;
+    /*ubah warna teks*/
+    color: white;
+    /*menghilangkan border*/
+    border: none;
+/*atur sudut border*/
+    border-radius: 5px;
+    /*efek bayangan*/
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.2);
+    /*teks rata tengah*/
+    text-align: center;
+    /*ubah jarak margin/luar*/
+    margin: 15px 2px;
+    /*ubah jarak padding/dalam*/
+    padding: 10px 15px;
+    /*ubah tampilan kursor ketika berada diatas elemen*/
+    cursor: pointer;
+    
+  }
+  .vm3:hover{
+    /*ubah warna background ketika kursor berada diatas elemen*/
+    background-color: #0b76a7;
+  }
+
+  .premium h2{
+
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-family: Raleway,sans-serif;
+
+  }
+  .kprem1{
+    text-align: center;
+    color: white;
+  }
+.kprem{
+  color:#a78f0b;
+}
+
+.PM{
+  padding-bottom: 30px;
+}
+
+.rt{
+  padding-left: 1100px;
+  padding-bottom: -1100px;
+}
+
+.pertandingan{
+  height: 400px;
+  width: 300px;
+  
+}
+.nm{
+  color: white;
+  font-family: Raleway,sans-serif;
+}
+
+@media (max-width:670px) {
+  /* Tetapkan flex-direction milik .flex-list */
+  .inner{
+    flex-direction:column;
+  }
+  
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .inner img{
+    height: 350px;
+    margin-top: 40px;
+
+  }
+  }
+
+  @media (max-width: 1000px) {
+    .inner {
+      flex-wrap: wrap;
+    }
+    .inner img {
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
+ 
+.inner{
+  overflow: hidden;
+  display: inline;
+  position: relative; 
+
+}
+.inner img{
+transition: all 0.7s ease;
+display: inline-block;
+
+}
+
+.inner:hover img{
+  -webkit-filter: brightness(0.25);
+ 
+}
+.carder{
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+.bgcard{
+  background-color: yellow;
+}
+
+.card {
+  display: block;
+  margin-top: 2%;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+   
+}
+
+.img-card {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-card img{
+  width: 100%;
+  height: 300px;
+  object-fit:cover;
+  transition: all .25s ease;
+}
+.card-content {
+  padding:15px;
+  text-align:left;
+}
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
+
+.mpt{
+  margin-top: 2%;
+  margin-bottom: 10%;
+  background-color: #001127;
+  mar
+  
+}
+.klr{
+  color: white;
+  font-weight: bold;
+  size: 35px;
+}
+.avatar .counter {
+  margin-top: 6px;
+  
+}
+.colom{
+  height: 50px;
+  width: 800px;
+}
+
+@media (max-width:670px) {
+  /* Tetapkan flex-direction milik .flex-list */
+  .sider{
+    flex-direction:column;
+  }
+  
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .sider img{
+width: 100%;
+
+  }
+  }
+
+  @media (max-width: 1000px) {
+    .sider {
+      flex-wrap: wrap;
+    }
+    .sider img {
+      
+    }
+  }
+.sider{
+
+display: inline-block;
+transition: all .2s ease-in;
+position: relative;
+}
+
+.sider:hover{
+
+  top: -5px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+.sd{
+  width: 100%;
+  height: 110px;
+  position: relative;
+  overflow: hidden;
+}
+.sd > img {
+  width: 100%;
+  max-width: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1.5);
+  -moz-transform: translate(-50%, -50%) scale(1.5);
+  -o-transform: translate(-50%, -50%) scale(1.5);
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+@media (max-width:670px) {
+  /* Tetapkan flex-direction milik .flex-list */
+  .clear-header{
+    flex-direction:column;
+  }
+  
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .clear-header{
+    margin: 0 auto;
+
+  }
+  }
+
+  @media (max-width: 1000px) {
+    .clear-header{
+      flex-wrap: wrap;
+    }
+    .clear-header li {
+      width: 100%;
+    }
+  }
+
+  .gold{
+    color:#a78f0b ;
+  }
+
+  .kmg{
+    display: inline-block;
+  }
+
+  .namapemain{
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 2px;
+    height: 300px;
+    width: 300px;
+}
+
+.am{
+  margin-top: 4px;
+}
+
+/* //upcoming match// */
+.lapsam{
+  color: white;
+  
+
+}
+.lapsam2{
+  color: red;
+}
+
+/* spasi */
+.spasi{
+  margin-top: 3px;
+}
+@media (min-width:450px) {
+  /* Tetapkan flex-direction milik .flex-list */
+  .clear-header img {
+ 
+    
+  }
+  
+  /* Tetapkan margin dari .flex-list li ke 0 auto */
+  .list3 li{
+   font-size: 10px;
+   text-align: center;
+  }
+
+  @media (min-width: 360px) {
+    .clear-header img {
+     
+    }
+    .list3 li{
+      font-size: 10px;
+      text-align: center;
+    }
+    .sider img{
+   
+    }
+    }
+  }
+  @media (min-width: 550px) {
+    .clear-header img {
+      
+    }
+    .list3 li{
+      font-size: 10px;
+      text-align: center;
+    }
+    
+    }
+  }
+  @media (min-width: 670px) {
+    .clear-header img {
+      
+    }
+    .list3 li{
+      font-size: 10px;
+      text-align: center;
+    }
+      
+    }
+  }
+  @media (min-width: 1000px) {
+    .clear-header img {
+       
+    }
+    .list3 li{
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width:670px) {
+  
+    .wrap img{
+     
+      margin-top: 70px;
+  
+    }
+    }
+  
+    @media (max-width: 1000px) {
+    
+      .wrap img {
+        margin-top: 70px;
+      }
+    }
+
+   .lapsam2{
+     margin-bottom: 50%;
+   } 
+  .upcoming-match-info{
+    margin-top: 10%;
+  }
+
+  .kosong{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .space{
+
+    margin-bottom: 40px;
+    background-color: white;
+  }
+/* amateurs */
+.tutup h6{
+  color: white;
+}
+/* logo cover */
+.logocover{
+  height: 50px;
+  width: 50px;
+}

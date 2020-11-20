@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css" />
+        <style>
+            .woy{
+                margin-left: 2px;
+                text-align: center;
+                width: 970px;
+                height: 600px;
+            }
+            .hey{
+                padding-left: 0px;
+                text-align: center;
+                width: 527px;
+                height: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HALLOOOO</h1>
+        <!-- <div class="container">
+
+            <a href="Kalurfc.html"><img src="images/soccer/klr2.jpg" alt="" class="woy"></a>
+            <img src="images/soccer/klr2.jpg" alt="" class="hey">
+            
+        </div> -->
+
+        <div class="clock-builder-output"></div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="clock_assets/flipclock.js"></script>
+        <style text="text/css">body .flip-clock-wrapper ul li a div div.inn, body .flip-clock-small-wrapper ul li a div div.inn { color: #CCCCCC; background-color: #333333; } body .flip-clock-dot, body .flip-clock-small-wrapper .flip-clock-dot { background: #323434; } body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper .flip-clock-meridium a { color: #323434; }</style>
+        <script type="text/javascript">
+        $(function(){
+            FlipClock.Lang.Custom = { days:'Days', hours:'Hours', minutes:'Minutes', seconds:'Seconds' };
+            var opts = {
+                clockFace: 'DailyCounter',
+                countdown: true,
+                language: 'Custom'
+            };  
+            var countdown = 1602832980 - ((new Date().getTime())/1000); // from: 10/16/2020 02:23 pm +0700
+            countdown = Math.max(1, countdown);
+            $('.clock-builder-output').FlipClock(countdown, opts);
+        });
+        </script>
+    </body>
+</html>
+<div class="msp_post_slider" id="amateurs-slider">
+
+    <div class="owl-carousel owl-theme" role="listbox">
+        
+        <div class="item msp_post_slide slide-1" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item msp_post_slide slide-2" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item msp_post_slide slide-3" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>

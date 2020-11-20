@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Team HTML</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/library/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/preloader-default.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/demo-switcher.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/nike.css" rel="stylesheet" type="text/css" />
+    
+    <!-- 
+    
+    Enable one styles which the you want
+    
+    <link href="css-min/soccer.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/hockey.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/basketball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/football.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/baseball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/dota.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/csgo.min.css" rel="stylesheet" type="text/css" />
+    
+    All libraries included in this css, concating rules in /grunt/cssmin.js
+    Use grunt default task for creating this files
+    
+    -->
+</head>
+
+<body>
+
+	<div class="preloader-wrapper" id="preloader">
+    <div class="motion-line dark-big"></div>
+    <div class="motion-line yellow-big"></div>
+    <div class="motion-line dark-small"></div>
+    <div class="motion-line yellow-normal"></div>
+    <div class="motion-line yellow-small1"></div>
+    <div class="motion-line yellow-small2"></div>
+</div>
+
+    
+
+
+    
+<div id="top" class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 hidden-sm hidden-xs">
+                <div class="top-contacts">
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="contacts">
+                        <li><a href="club-stats.html" class="CL">CLUB STATS</a></li>
+                        <li><a href="upcoming-match.html">UPCOMING MATCH</a></li>
+                        <li><a href="amateurs.html">AMATEURS</a></li>
+                        
+
+                        
+                    </ul>
+                </div>
+            </div>
+            <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+              </svg></a>
+            <div class="col-md-5">
+                <div class="top-language">
+                    <ul class="list">
+                        <li class="dropdown">
+                            <a href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="dt" data-toggle="dropdown" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4H2.255a7.025 7.025 0 0 1 3.072-2.472 6.7 6.7 0 0 0-.597.933c-.247.464-.462.98-.64 1.539zm-.582 3.5h-2.49c.062-.89.291-1.733.656-2.5H3.82a13.652 13.652 0 0 0-.312 2.5zM4.847 5H7.5v2.5H4.51A12.5 12.5 0 0 1 4.846 5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5H7.5V11H4.847a12.5 12.5 0 0 1-.338-2.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12H7.5v2.923c-.67-.204-1.335-.82-1.887-1.855A7.97 7.97 0 0 1 5.145 12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11H1.674a6.958 6.958 0 0 1-.656-2.5h2.49c.03.877.138 1.718.312 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12h2.355a7.967 7.967 0 0 1-.468 1.068c-.552 1.035-1.218 1.65-1.887 1.855V12zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5h-2.49A13.65 13.65 0 0 0 12.18 5h2.146c.365.767.594 1.61.656 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"/>
+                              </svg></a> 
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"><img src="images/common/fr-flag.png" alt="language">FR</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/en-flag.png" alt="language">EN</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/ru-flag.png" alt="language">RU</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/soccer/indo.png" alt="language">IND</a>
+                                </li>
+                            </ul>
+                        </li>
+                      
+                    </ul>
+                    
+                </div>
+               
+                    <div class="top-search">
+                            <form>
+                                    <input type="text" name="text">
+                                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                    </div>
+
+                    <div class="clear"></div>
+                    
+            </div>
+        </div>
+        <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+            <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+          </svg></a>
+        </div>
+    </div>
+    
+</div>
+
+<!--ESPORT TEAM LANDING HEADER BEGIN-->
+<div class="main-menu-wrap sticky-menu"></div>
+<div id="esport-team-landing-header" class="esport-team-landing-header">  
+    <div class="container">
+       
+            <button type="button" data-toggle="collapse" data-target="#landing-header" aria-expanded="false" class="navbar-toggle">
+                <i class="fa fa-bars" aria-hidden="false"></i>
+            </button>
+            
+            <center>
+          
+                    <center>
+                    <a href="Kalurfc.html"><img src="images/common/logo2020.png" class="lg3"></a>
+                </center>
+                
+            
+                            
+                        </div>
+                </div>
+                
+                                
+            </div>
+        </div>
+    </center>
+    </div>
+</div>
+<!--MAIN MENU WRAP END-->
+
+
+    <!--BREADCRUMBS BEGIN-->
+
+<!--BREADCRUMBS END-->
+<section>
+
+</section>
+
+
+    <!--PLAYER SINGLE WRAP BEGIN-->
+    <div class="aam">
+    <section class="player-single-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="player-name"></h4>
+            
+            </div>
+                <div class="col-md-6">
+                    <h4 class="player-name">IBNU PRIANGGA</h4>  
+<div class="player-photo">
+   
+    <div class="number">86</div>
+  
+    
+    <img class="img-responsive" src="images/common/ibnu-removebg-preview.png" alt="player">
+</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="player-info">
+                        <h6 class="player-info-title">summary</h6>	
+                        <div class="summary">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <div class="item">Name:</div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9">IBNU PRIANGGA</div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <div class="item">Nationality:</div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9"><img src="images/soccer/indo.png" alt="flag">INDONESIA</div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <div class="item">Position:</div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9">Keeper</div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <div class="item">Age:</div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9">16</div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                                    <div class="item">Social Media:</div>
+                                </div>
+                                <div class="col-md-9 col-sm-9 col-xs-9"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true" alt="flag"></i></a>|<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>|<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                |<a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></div>
+                                <div class="col-md-3 col-sm-3 col-xs-3">
+                            </div>
+                            
+                        </div>
+                        <h6>club history</h6>
+                        <div class="overflow-scroll">
+                            <table>
+                                <tr>
+                                    <th>Season</th>
+                                    <th class="club">Club</th>
+                                    <th>Games</th>
+                                    <th>Goals</th>
+                                </tr>
+                                <tr>
+                                    <td>2019/2020</td>
+                                    <td class="club"><img src="images/common/logo2020.png" width="30" height="30" alt="trophy"> KALUR FC</td>
+                                    <td>27</td>
+                                    <td><span>0</span></td>
+                                </tr>
+                              
+                            </table>
+                        </div>
+                        <h6>About</h6>
+                        <p>IBNU adalah seorang ketua majelis   </p>
+                        <h6>Trophies</h6>
+                        <ul class="player-trophey">
+                            <li>
+                                <img src="images/common/am-trophey.png" width="100" height="150" alt="trophy">
+                                <div class="year">2018</div>
+                            </li>
+                            <li>
+                                <img src="images/common/am-trophey.png" width="100" height="150" alt="trophy">
+                                <div class="year">2019</div>
+                            </li>
+                            <li>
+                                <img src="images/common/am-trophey2.png" width="100" height="150" alt="trophy">
+                                <div class="year">202O</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <p>Pabst irony tattooed, synth sriracha selvage pok pok. Wayfarers kinfolk sartorial, helvetica you probably haven't heard of them tumeric venmo deep v mixtape semiotics brunch.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PLAYER SINGLE WRAP END-->
+
+    <!--MAIN CLUB STAFF BEGIN-->
+
+    <!--MAIN CLUB STAFF BEGIN-->
+
+<!--MAIN CLUB STAFF END-->
+
+    <!--MAIN CLUB STAFF END-->
+
+    <!--STANDING CUP END-->
+
+
+
+    <!--FOOTER BEGIN-->
+    <div class="bgimg">
+        <center>
+            <a href="https://www.nike.com/id/"><img src="images/soccer/jmp.png" class="logoairfooter" alt="product-image" id="lf"></a>
+            <a href="http://m.indosatooredoo.com/"><img src="images/soccer/do.png" class="logoairfooter2" alt="product-image" id="lf"></a>
+         </center>
+          </div>
+        
+            <!--FOOTER BEGIN-->
+        <!--ESPORT TEAM LANDING CONTACT END-->
+        
+        <div class="esport-team-landing-footer">
+            <div class="container">
+                <div class="lgft">
+                    <center>
+                        <a href="https://www.ea.com/sports"><img src="images/soccer/nfl.png" class="logoairfooter8" alt="product-image" id="lf"></a>
+                        <a href="https://all.accor.com/indonesia/index.en.shtml"><img src="images/soccer/ALLac-removebg-preview.png" class="logoairfooter9" alt="product-image" id="lf"></a>
+                        <br>
+                        <a href="https://www.bca.co.id/en/"><img src="images/soccer/Logo Bank BCA.png" class="logoairfooter6" alt="product-image" id="lf"></a>
+                    <a href="http://m.indosatooredoo.com/"><img src="images/soccer/idompet-removebg-preview.png" class="logoairfooter4" alt="product-image" id="lf"></a>
+                    <a href="https://www.indofood.com/"><img src="images/soccer/food.png" class="logoairfooter5" alt="product-image" id="lf"></a>
+                    <a href="https://www.nike.com/id/"><img src="images/common/nike4.png" class="logoairfooter3" alt="product-image" id="lf"></a>
+                    
+                    <a href="http://Tokopedia.com/"><img src="images/soccer/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" class="logoairfooter7" alt="product-image" id="lf"></a>
+                     <hr class="garis">
+                    <div class="col-md-5">
+                        <div class="header">Featured post
+                            <span>
+                                <a class="arrow left" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                                <a class="arrow rigth" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                            </span>
+                        </div>
+                        <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/samboja1.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">25 august</span>
+                                    <span class="name">Internacional inertns</span>
+                                </span>
+                            </a>
+                        </div>
+                           <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/samboja2.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">26 august</span>
+                                    <span class="name">Internacional</span>
+                                </span>
+                            </a>
+                        </div>
+                           <div class="news-slider footerSlide">
+                            <a href="#" class="news-wprapper">
+                                <img src="images/common/lapsam2.jpg" alt="news-img">
+                                <span class="news-border">
+                                    <span class="date">28 august</span>
+                                    <span class="name">Internacional inertns</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <span class="header">contact us</span>
+                        <span class="welcome">welcome to family</span>
+                        <ul class="contact-list">
+                            <li><span>INDRAMAYU, KANDANGHAUR DS.ERETAN WETAN BLOK PANG PANG 2</span></li>
+                            <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>+62 83148319061</span></li>
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="https://mail.google.com/mail/u/0/?hl=en#inbox">officialkalurfc@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <span class="header">ABOUT US</span>
+                        <p>KALUR FC DIDIRIKAN TAHUN 2020 </p>
+                    </div>
+                   <div id="top">
+                        <a href="#top"><img src="images/soccer/logo2020.png" class="logofot" alt="product-image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--ESPORT TEAM LANDING FOOTER LINKS BEGIN-->
+        <div id="footer" class="esport-team-landing-footer-links">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li class="facebook">
+                                <a href="#">
+                                    <span>facebook</span>
+                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a href="#">
+                                    <span>twitter</span>
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="google">
+                                <a href="#">
+                                    <span>google+</span>
+                                    <i class="fa fa-google" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="instagram">
+                                <a href="#">
+                                    <span>instagram</span>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="youtube">
+                                <a href="#">
+                                    <span>youtube</span>
+                                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--FOOTER END-->
+
+
+
+    <script type="text/javascript" src="js/library/jquery.js"></script>
+<script type="text/javascript" src="js/library/jquery-ui.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.js"></script>
+<script type="text/javascript" src="js/library/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/library/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/library/jcarousel.connected-carousels.js"></script>
+<script type="text/javascript" src="js/library/owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/progressbar.js"></script>
+<script type="text/javascript" src="js/library/jquery.bracket.min.js"></script>
+<script type="text/javascript" src="js/library/chartist.js"></script>
+<script type="text/javascript" src="js/library/Chart.js"></script>
+<script type="text/javascript" src="js/library/fancySelect.js"></script>
+<script type="text/javascript" src="js/library/isotope.pkgd.js"></script>
+<script type="text/javascript" src="js/library/imagesloaded.pkgd.js"></script>
+
+<script type="text/javascript" src="js/jquery.team-coundown.js"></script>
+<script type="text/javascript" src="js/matches-slider.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/matches_broadcast_listing.js"></script>
+<script type="text/javascript" src="js/news-line.js"></script>
+<script type="text/javascript" src="js/match_galery.js"></script>
+<script type="text/javascript" src="js/main-club-gallery.js"></script>
+<script type="text/javascript" src="js/product-slider.js"></script>
+<script type="text/javascript" src="js/circle-bar.js"></script>
+<script type="text/javascript" src="js/standings.js"></script>
+<script type="text/javascript" src="js/shop-price-filter.js"></script>
+<script type="text/javascript" src="js/timeseries.js"></script>
+<script type="text/javascript" src="js/radar.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/diagram.js"></script>
+<script type="text/javascript" src="js/bi-polar-diagram.js"></script>
+<script type="text/javascript" src="js/label-placement-diagram.js"></script>
+<script type="text/javascript" src="js/donut-chart.js"></script>
+<script type="text/javascript" src="js/animate-donut.js"></script>
+<script type="text/javascript" src="js/advanced-smil.js"></script>
+<script type="text/javascript" src="js/svg-path.js"></script>
+<script type="text/javascript" src="js/pick-circle.js"></script>
+<script type="text/javascript" src="js/horizontal-bar.js"></script>
+<script type="text/javascript" src="js/gauge-chart.js"></script>
+<script type="text/javascript" src="js/stacked-bar.js"></script>
+
+<script type="text/javascript" src="js/library/chartist-plugin-legend.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-threshold.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-pointlabels.js"></script>
+
+<script type="text/javascript" src="js/treshold.js"></script>
+<script type="text/javascript" src="js/visible.js"></script>
+<script type="text/javascript" src="js/anchor.js"></script>
+<script type="text/javascript" src="js/landing_carousel.js"></script>
+<script type="text/javascript" src="js/landing_sport_standings.js"></script>
+<script type="text/javascript" src="js/twitterslider.js"></script>
+<script type="text/javascript" src="js/champions.js"></script>
+<script type="text/javascript" src="js/landing_mainnews_slider.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/video_slider.js"></script>
+<script type="text/javascript" src="js/footer_slides.js"></script>
+<script type="text/javascript" src="js/player_test.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+	<!--DEMO SWITCHER BEGIN-->
+
+<!--DEMO SWITCHER END-->
+
+<script type="text/javascript" src="dev-assets/demo-switcher.js"></script>
+</body>
+
+
+</html>

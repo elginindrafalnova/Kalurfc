@@ -1,0 +1,1953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Team HTML</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans:700,400%7CRaleway:400,800,900" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/library/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/preloader-default.css" rel="stylesheet" type="text/css" />
+    <link href="dev-assets/demo-switcher.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/nike.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css-min/font-awesome.min.css">
+    <link href="css-min/cards.css" rel="stylesheet" type="text/css" />
+    <!-- 
+    
+    Enable one styles which the you want
+    
+    <link href="css-min/soccer.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/hockey.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/basketball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/football.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/baseball.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/dota.min.css" rel="stylesheet" type="text/css" />
+    <link href="css-min/csgo.min.css" rel="stylesheet" type="text/css" />
+    
+    All libraries included in this css, concating rules in /grunt/cssmin.js
+    Use grunt default task for creating this files
+    
+    -->
+</head>
+
+<body>
+
+	<div class="preloader-wrapper" id="preloader">
+    <div class="motion-line dark-big"></div>
+    <div class="motion-line yellow-big"></div>
+    <div class="motion-line dark-small"></div>
+    <div class="motion-line yellow-normal"></div>
+    <div class="motion-line yellow-small1"></div>
+    <div class="motion-line yellow-small2"></div>
+</div>
+
+    
+
+    
+<div id="top" class="top-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 hidden-sm hidden-xs">
+                <div class="top-contacts">
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="contacts">
+                        <li><a href="club-stats.html" class="CL">CLUB STATS</a></li>
+                        <li><a href="upcoming-match.html">UPCOMING MATCH</a></li>
+                        <li><a href="amateurs.html">AMATEURS</a></li>
+                        <li><a href="store.html">SHOP</a></li>
+                        <li><a href="staff.html">SQUAD</a></li>
+                        
+
+                        
+                    </ul>
+                </div>
+            </div>
+            <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+              </svg></a>
+            <div class="col-md-5">
+                <div class="top-language">
+                    <ul class="list">
+                        <li class="dropdown">
+                            <a href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="dt" data-toggle="dropdown" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4H2.255a7.025 7.025 0 0 1 3.072-2.472 6.7 6.7 0 0 0-.597.933c-.247.464-.462.98-.64 1.539zm-.582 3.5h-2.49c.062-.89.291-1.733.656-2.5H3.82a13.652 13.652 0 0 0-.312 2.5zM4.847 5H7.5v2.5H4.51A12.5 12.5 0 0 1 4.846 5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5H7.5V11H4.847a12.5 12.5 0 0 1-.338-2.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12H7.5v2.923c-.67-.204-1.335-.82-1.887-1.855A7.97 7.97 0 0 1 5.145 12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11H1.674a6.958 6.958 0 0 1-.656-2.5h2.49c.03.877.138 1.718.312 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12h2.355a7.967 7.967 0 0 1-.468 1.068c-.552 1.035-1.218 1.65-1.887 1.855V12zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5h-2.49A13.65 13.65 0 0 0 12.18 5h2.146c.365.767.594 1.61.656 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"/>
+                              </svg></a> 
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"><img src="images/common/fr-flag.png" alt="language">FR</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/en-flag.png" alt="language">EN</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/common/ru-flag.png" alt="language">RU</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/soccer/indo.png" alt="language">IND</a>
+                                </li>
+                            </ul>
+                        </li>
+                      
+                    </ul>
+                    
+                </div>
+               
+                    <div class="top-search">
+                            <form>
+                                    <input type="text" name="text">
+                                    <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                    </div>
+
+                    <div class="clear"></div>
+                    
+            </div>
+        </div>
+        <a href="login.html"><svg viewBox="0 0 16 16" class="pr" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+            <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+          </svg></a>
+        </div>
+    </div>
+    
+</div>
+
+<!--ESPORT TEAM LANDING HEADER BEGIN-->
+<div class="main-menu-wrap sticky-menu"></div>
+<div id="esport-team-landing-header" class="esport-team-landing-header">  
+    <div class="container">
+       
+            <button type="button" data-toggle="collapse" data-target="#landing-header" aria-expanded="false" class="navbar-toggle">
+                <i class="fa fa-bars" aria-hidden="false"></i>
+              
+            </button>
+          
+            <center>
+            <div class="clear-header">
+                <div id="landing-header" class="navbar-collapse collapse">
+                    <center>
+                    <a href="#top"><img src="images/common/logo2020.png" class="lg21"></a>
+                </center>
+                
+                    <ul class="list3">
+                         <li>
+                            <a href="#top" class="H">HOME</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#team" class="H">TEAM</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#store1" class="H">STORE</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#ktv" class="H">KTV+</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#news">KNEWS</a>
+                            
+                        </li>
+                        <li>
+                            <a href="#footer" class="team2">CONTACT</a>
+                            </li>
+                    </ul>
+                   
+                  
+                                    </ul>
+                                </li>
+                              
+                            </ul>
+                            
+                        </div>
+                </div>
+            
+                                
+            </div>
+        </div>
+    </center>
+    
+    </div>
+
+<!--MAIN MENU WRAP END-->
+
+<div class="space">
+<h5></h5>
+</div>
+        
+                
+           
+
+      <!--MAIN AMATURE SLIDER END-->
+<!-- <div class="msp_post_slider" id="amateurs-slider">
+
+    <div class="owl-carousel owl-theme" role="listbox">
+         -->
+         
+         <div class="blok">
+         <div class="inner">
+
+            <img src="images/common/samboja1.jpg" class="image1" alt="" height="650px" width="1081px">
+           
+        </div>
+        <div class="sider">
+             <a href="upcoming-match.html"><img src="images/common/GCB3.png" alt="" height="650px" width="435px"></a>
+            </div>
+        </div>
+        
+       
+        <div class="item msp_post_slide slide-1" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item msp_post_slide slide-2" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item msp_post_slide slide-3" >
+            <div class="slider-caption">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-sm-8">
+                            <h1 class="title">Team 1 - Team 2</h1>
+                            <div class="sub-title">
+                                FINAL GAME
+                            </div>
+                            <a href="index.html" class="btn">
+                                Read more
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Controls -->
+    <!-- <a class="nav-arrow left-arrow" href="#main-slider" role="button" data-slide="prev">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="nav-arrow right-arrow" href="#main-slider" role="button" data-slide="next">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+        <span class="sr-only">Next</span>
+    </a>
+
+    <div class="progress-line"><div class="bar"></div></div>
+</div> -->
+
+<div class="support-grid">
+
+  <div class="band">
+    <div class="item-1">
+          <a href="#" class="card">
+            <div class="thumb" style="background-image: url(images/common/obral2.jpg);"></div>
+            <article>
+              <h4>LAUNCHING JERSEY HOME KALUR FC | 2020</h4>
+              <span>FIRST TIME | 3 hours ago</span>
+            </article>
+          </a>
+    </div>
+    <div class="item-2">
+          <a href="#" class="card">
+            <div class="thumb" style="background-image: url(images/common/samboja2.jpg);"></div>
+            <article>
+              <h4>GASSSLURRR</h4>
+              <p>Galeri kalur fc vs rescha fc</p>
+              <span>FIRST TEAM | 3 hours ago</span>
+            </article>
+          </a>
+    </div>
+    <div class="item-3">
+      <a href="#" class="card">
+        <div class="thumb" style="background-image: url(images/common/lapsam1.jpg);"></div>
+        <article>
+          <h4>STADION</h4>
+          <p>LATIHAN SEBELUM BERMAIN</p>
+          <span>FIRST TEAM | 3 hours ago</span>
+        </article>
+      </a>
+    </div>
+    <div class="item-7">
+        <a href="#" class="card">
+          <div class="thumb" style="background-image: url(images/common/denisxlani.jpg);"></div>
+          <article>
+            <h4>PARA PEMAIN KALUR FC</h4>
+            <span>FIRST TEAM | 3 hours ago</span>
+          </article>
+        </a>
+      </div>
+      <div class="item-7">
+        <a href="#" class="card">
+          <div class="thumb" style="background-image: url(images/common/amfly.jpg);"></div>
+          <article>
+            <h4>AAM BERHASIL MENEPIS BOLA</h4>
+            <span>FIRST TEAM | 3 hours ago</span>
+          </article>
+        </a>
+      </div>
+    <div class="item-7">
+        <a href="#" class="card">
+          <div class="thumb" style="background-image: url(images/common/azir.jpg);"></div>
+          <article>
+            <h4> LEMES JEH KANG</h4>
+            <span>FIRST TEAM | 3 hours ago</span>
+          </article>
+        </a>
+      </div>
+    <div class="item-7">
+      <a href="#" class="card">
+        <div class="thumb" style="background-image: url(images/common/kiper.jpg);"></div>
+        <article>
+          <h4>DUA PENJAGA GAWANG UTAMA KALUR FC</h4>
+          <span>FIRST TEAM | 3 hours ago</span>
+        </article>
+      </a>
+    </div>
+    
+    <img src="images/common/elgin.jpg" alt="" class="card" height="400px" width="300px">
+    <img src="images/common/cibuk.jpg" alt="" class="card" height="400px" width="300px">
+    <img src="images/common/mpi.jpg" alt="" class="card" height="400px" width="300px">
+    <img src="images/common/amnu.jpg" alt="" class="card" height="400px" width="300px">
+</div>
+  </div>
+</div>
+
+
+
+         
+    <!--next match-->
+            <section>
+            <div class="col-md-8 col-sm-17 col-xs-12">
+                <center>
+                <h6 class="nm">Next match</h6>
+            </center>
+<div class="main-next-match bg-cover">
+<img src="images/soccer/next-match-bg.jpg" class="next-match-background-img" alt="next-image"> 
+<div class="wrap">
+    <div class="place" >LAPANGAN SANTING</div>
+    <div class="date" >1 SEPT 2020 / 15.55 PM</div>
+    <div class="teams-wrap" >
+            <a href="staff.html" class="team">
+                <span>KALUR FC</span>
+                <span><img src="images/soccer/f.png" alt="team-image"></span>
+            </a>
+            <div class="vs">
+               vs
+            </div>
+            <a href="staff.html" class="te">
+                <span><img src="images/common/logo-condong.png" width="50px" height="70px" alt="team-image"></span>
+                <span>GCB UNITED</span>
+            </a>
+    </div>
+    <a href="#" class="booking">UPCOMING MATCH</a>
+</div>
+</div>
+
+<!---laatest match--->
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <center>
+                <h6 class="nm">Latest matches</h6>
+                </center>
+<div class="main-lates-matches">
+<a href="#" class="item">
+    <span class="championship">FRENDLY MATCH</span>
+    <span class="teams-wrap">
+            <span class="team">
+                <span>
+                    <img src="images/soccer/f.png" alt="team-image">
+                </span>
+                <span>KALUR FC</span>
+            </span>
+            <span class="score">
+                <span>0:2</span>
+
+            </span>
+            <span class="team1">
+                <span>RESCHA FC</span>
+                <span><img src="images/common/gawox.png" alt="team-image"></span>
+            </span>
+    </span>
+    <span class="game-result"></span>
+</a>
+<a href="#" class="item">
+    <span class="championship">FUTSAL</span>
+    <span class="teams-wrap">
+            <span class="team">
+                <span>
+                    <img src="images/soccer/f.png" alt="team-image">
+                </span>
+                <span>KALUR FC</span>
+            </span>
+            <span class="score">
+                <span>11:5</span>
+            </span>
+            <span class="team1">
+                <span>ERKUL</span>
+                <span><img src="images/common/team-logo4.png" alt="team-image"></span>
+            </span>
+    </span>
+    <span class="game-result"></span>
+</a>
+<a href="#" class="item">
+    <span class="championship">FUTSAL</span>
+    <span class="teams-wrap">
+            <span class="team">
+                <span>
+                    <img src="images/soccer/f.png" alt="team-image">
+                </span>
+                <span>KALUR FC</span>
+            </span>
+            <span class="score">
+                <span>1:0</span>
+
+            </span>
+            <span class="team1">
+                <span>MUARA</span>
+                <span><img src="images/common/team-logo1.png" alt="team-image"></span>
+            </span>
+    </span>
+    
+</a>
+<a href="#" class="item">
+    <span class="championship">FUTSAL</span>
+    <span class="teams-wrap">
+            <span class="team">
+                <span>
+                    <img src="images/soccer/f.png" alt="team-image">
+                </span>
+                <span>KALUR FC</span>
+            </span>
+            <span class="score">
+                <span>0:0</span>
+
+            </span>
+            <span class="team1">
+                <span>RESCHA FC</span>
+                <span><img src="images/common/gawox.png" alt="team-image"></span>
+            </span>
+    </span>
+    
+</a>
+<a href="#" class="item">
+    <span class="championship">FUTSAL</span>
+    <span class="teams-wrap">
+            <span class="team">
+                <span>
+                    <img src="images/common/gawox.png" alt="team-image">
+                </span>
+                <span>RESCHA FC</span>
+            </span>
+            <span class="score">
+                <span>3:8</span>
+
+            </span>
+            <span class="team1">
+                <span>KALUR FC</span>
+                <span><img src="images/soccer/f.png" alt="team-image"></span>
+            </span>
+    </span>
+    
+</a>
+<center>
+    <a href="#"><button type="button" class="vm3">VIEW MORE</button>
+    </center>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+ <!--MAIN PLAYERS STAT BEGIN-->
+
+ <section class="main-players-stat bg-cover">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h4 class="hockey-stats-h4">Players stats</h4>
+                
+
+<div class="single-player-stats players_statistic_slider">
+<ul class="player-filters" role="tablist">        
+    <li class="active">
+        <a href="#goalkeepers" role="tab" data-toggle="tab">
+            goalkeepers
+        </a>
+    </li>
+    <li>
+        <a href="#defenders" role="tab" data-toggle="tab">
+            defenders
+        </a>
+    </li>
+
+</ul>
+<div class="player-stat-slider tab-content">      
+    <div id="slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner tab-content" role="listbox">
+            <div class="item active tab-pane" id="goalkeepers">
+
+                <div class="wrap">
+                    <div class="stat">
+                        <div class="top-info with_number">
+                            <div class="number">1</div>
+                            <a href="player-second-page.html" class="name">
+                               AMZANA
+                            </a>
+                        </div>
+                        <div class="position">
+                            Goalkeeper
+                        </div>
+                        <div class="progress-wrap">
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">played</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-1" ></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">saves</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-2" ></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">missing</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-3" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <a href="player-second-page.html" title="player-image">
+                            <img src="images/common/aam2.jpg" alt="player-image">
+                        </a>
+                    </div>	
+                </div>
+            </div>
+            <div class="item tab-pane" id="defenders">
+                <div class="wrap">
+                    <div class="stat">
+                        <div class="top-info with_number">
+                            <div class="number">2</div>
+                            <a href="player.html" class="name">
+                               LANI JAY
+                            </a>
+                        </div>
+                        <div class="top-info">
+                            <a href="player-second-page.html" class="name">
+                            </a>
+                        </div>
+                        <div class="position">
+                            Defender
+                        </div>
+                        <div class="progress-wrap">
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">played</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-4" ></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">saves</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-5" ></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">missing</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-6" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <a href="player-second-page.html" title="player-image">
+                            <img src="images/common/lanicrop.jpg" alt="player-image">
+                        </a>
+                    </div>	
+                </div>
+            </div>
+            <div class="item tab-pane" id="defenders">
+                <div class="wrap">
+                    <div class="stat">
+                        <div class="top-info with_number">
+                            <div class="number">3</div>
+                            <a href="player.html" class="name">
+                              ATO
+                            </a>
+                        </div>
+                        <div class="top-info">
+                            <a href="player-second-page.html" class="name">
+                            </a>
+                        </div>
+                        <div class="position">
+                            Defender
+                        </div>
+                        <div class="progress-wrap">
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">played</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-4" ></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">saves</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-5" ></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="bar-label">
+                                    <div class="achievement">missing</div>
+                                    <div class="score">23</div>
+                                </div>
+                                <div class="progress-line">
+                                    <div class="bar bar-6" ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <a href="player-second-page.html" title="player-image">
+                            <img src="images/soccer/player-stat-slider-img.jpg" alt="player-image">
+                        </a>
+                    </div>	
+                </div>
+            </div>
+
+
+            <div class="arrow-wrap">
+                <!-- Controls -->
+                <a class="nav-arrow left-arrow" href="#slider" role="button" data-slide="prev">
+                    <i class="fa fa-caret-left" aria-hidden="true"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="nav-arrow right-arrow" href="#slider" role="button" data-slide="next">
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>  
+        </div>
+    </div>
+</div>
+</div>
+            </div>
+            <div class="col-md-5">
+                <h4 class = "hockey-stats-h4">Best players</h4>
+                <div class="team-best-player">
+<div class="">
+    <ul class="player-filters" role="tablist">
+        <li class="active">
+            <a href="#goals" role="tab" data-toggle="tab">goals</a>
+        </li>
+        <li>
+            <a href="#assist" role="tab" data-toggle="tab">assist</a>
+        </li>
+    </ul>    
+</div>
+<div class="tab-content">
+    <div class="best-players-list tab-pane active" id="goals">
+        <a href="player-second-page.html" class="item">
+            <span class="number">9</span>
+            <span>Elgin Inda F</span>
+            
+            <span class="achievement">10</span>
+        </a>
+        <a href="player.html" class="item">
+            <span class="number">23</span>
+            <span>Rafif Ooh</span>
+            <span class="achievement">8</span>
+        </a> 
+        <a href="player.html" class="item">
+            <span class="number">10</span>
+            <span>Dalon Pintara</span>
+            <span class="achievement">7</span>
+        </a>
+        <a href="player-second-page.html" class="item">
+            <span class="number">22</span>
+            <span>Denis Irwin</span>
+            <span class="achievement">6</span>
+        </a>
+        <a href="player.html" class="item">
+            <span class="number">28</span>
+            <span>Aldi Arifin</span>
+            <span class="achievement">4</span>
+        </a>
+        <a href="player.html" class="item">
+            <span class="number">7</span>
+            <span>Taryudi</span>
+            <span class="achievement">3</span>
+        </a>
+        <a href="player-second-page.html" class="item">
+            <span class="number">30</span>
+            <span>Azier Fahrurozi</span>
+            <span class="achievement">3</span>
+        </a>
+          
+    </div>
+    <div class="best-players-list tab-pane" id="assist">
+        <a href="player.html" class="item">
+            <span class="number">2</span>
+            <span>Lani</span>
+            <span class="achievement">14</span>
+        </a> 
+        <a href="player-second-page.html" class="item">
+            <span class="number">9</span>
+            <span>Elgin Inda F</span>
+            <span class="achievement">9</span>
+            </a>   
+        <a href="player-second-page.html" class="item">
+            <span class="number">21</span>
+            <span>Denis Irwin</span>
+            <span class="achievement">6</span>
+        <a href="player.html" class="item">
+            <span class="number">24</span>
+            <span>Eza</span>
+            <span class="achievement">4</span>
+        </a>
+        <a href="player-second-page.html" class="item">
+            <span class="number">30</span>
+            <span>Azier Fahrurozi</span>
+            <span class="achievement">3</span>
+        </a>
+        </a>
+        <a href="player-second-page.html" class="item">
+            <span class="number">33</span>
+            <span>Suharto</span>
+            <span class="achievement">3</span>
+        </a>
+        <a href="player.html" class="item">
+            <span class="number">8</span>
+            <span>Aldi Arifin</span>
+            <span class="achievement">4</span>
+        </a>
+       
+    </div>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--MAIN PLAYERS STAT END-->
+
+
+
+ <!--PIALA-->
+
+ <div class="main-award-box">
+     <CEnter>
+        <h4>CHAMPIONS</h4>
+     </CEnter>
+     
+
+    <!--TIMELINE BEGIN-->
+<div class="timeline-bar">
+<div class="bar">
+    <div class="date date-1" >2016</div>
+    <div class="date date-2" >2017</div>
+    <div class="date date-3" >2018</div>
+    <div class="date date-4" >2019</div>
+    <div class="date date-5" >2020</div>
+    <div class="date date-6 active" >2020</div>
+</div>
+</div>
+<!--TIMELINE END-->
+
+    
+<div class="main-award-slider">
+<div id="main-award-slider" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">  
+        <div class="item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4 text-center">
+                            <div class="award">
+                                <div class="image"><img class="img-responsive" src="images/common/cup.png" alt="cup-image"></div>
+                                <div class="name">All-Star Series</div>
+                                <div class="year">2018</div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <div class="award">
+                                <div class="image"><img class="img-responsive" src="images/common/cup1.png" alt="cup-image"></div>
+                                <div class="name">Eretan Championship</div>
+                                <div class="year">2019</div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <div class="award">
+                                <div class="image"><img class="img-responsive" src="images/common/cup2.png" alt="cup-image"></div>
+                                <div class="name">Kuwu Cup 2020</div>
+                                <div class="year">2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4 text-center">
+                            <div class="award">
+                                <div class="image"><img class="img-responsive" src="images/common/cup.png" alt="cup-image"></div>
+                                <div class="name">All-Star Series</div>
+                                <div class="year">2016</div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <div class="award">
+                                <div class="image"><img class="img-responsive" src="images/common/cup1.png" alt="cup-image"></div>
+                                <div class="name">World Class Championship</div>
+                                <div class="year">2016</div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <div class="award">
+                                <div class="image"><img class="img-responsive" src="images/common/cup2.png" alt="cup-image"></div>
+                                <div class="name">Major League Trophy</div>
+                                <div class="year">2016</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    <!-- Controls -->
+    <a class="nav-arrow left-arrow" href="#main-award-slider" role="button" data-slide="prev">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="nav-arrow right-arrow" href="#main-award-slider" role="button" data-slide="next">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+
+</div>
+    
+ <!--MAIN CLUB STAFF BEGIN-->
+ 
+ <section class="main-club-stuff">    
+    <div id="team" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="soccer-h4">club stuff</h4>  
+                <ul class="player-filters" role="tablist">
+                    <li class="active">
+                        <a href="#managers" role="tab" data-toggle="tab">
+                            Managers                  
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#firstteam" role="tab" data-toggle="tab">
+                            First team
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#academy" role="tab" data-toggle="tab">
+                            Academy
+                        </a>
+                    </li>   
+                   
+                    </li>                    
+                </ul>
+            </div>
+        </div>           
+        </div>
+      
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="managers" role="tabpanel">
+            <div id="managers_carousel" class="carousel slide main-stuff-slider" data-ride="carousel" >
+                <div class="carousel-inner" role="listbox" >
+                    <div class="item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">AWUD<br>JR</span>
+                                                <span class="position">Left Forward</span>
+                                                <span class="number">24</span>
+                                            </span>
+                                            <img src="images/common/awud.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>                    
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">AZIER<br>FAHRUROZI</span>
+                                                <span class="position">Left Midfielder</span>
+                                                <span class="number">30</span>
+                                            </span>
+                                            <img src="images/soccer/azier.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">JUPRI<br>YOUNG</span>
+                                                <span class="position">Central Attacking Midfielder</span>
+                                                <span class="number">18</span>
+                                            </span>
+                                            <img src="images/soccer/player-3.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <!-- Controls -->
+                    <a class="nav-arrow left-arrow" href="#managers_carousel" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="nav-arrow right-arrow" href="#managers_carousel" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="academy" role="tabpanel">
+            <div id="academy_carousel" class="carousel slide main-stuff-slider" data-ride="carousel" >
+                <div class="carousel-inner" role="listbox" >
+                    <div class="item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">AMZANA<br>H</span>
+                                                <span class="position">KEEPER</span>
+                                                <span class="number">1</span>
+                                            </span>
+                                            <img src="images/soccer/player-2.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>                    
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">JERMAN<br>ALGHANI</span>
+                                                <span class="position">DEFENDER</span>
+                                                <span class="number">69</span>
+                                            </span>
+                                            <img src="images/soccer/player-3.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">IBNU<br>PRIANGGA</span>
+                                                <span class="position">KEEPER</span>
+                                                <span class="number">86</span>
+                                            </span>
+                                            <img src="images/soccer/player-3.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">IKBAR<br>RIYANDI</span>
+                                                <span class="position">KEEPER</span>
+                                                <span class="number">25</span>
+                                            </span>
+                                            <img src="images/soccer/player-3.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>                    
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">SHIAB<br>ARU ALSYARI</span>
+                                                <span class="position">TENGAH</span>
+                                                <span class="number">14</span>
+                                            </span>
+                                            <img src="images/soccer/stuff-person.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">SEPRON<br>JK</span>
+                                                <span class="position">TENGAH</span>
+                                                <span class="number">50</span>
+                                            </span>
+                                            <img src="images/soccer/stuff-person.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="nav-arrow left-arrow" href="#academy_carousel" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="nav-arrow right-arrow" href="#academy_carousel" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane" id="firstteam" role="tabpanel">
+            <div id="firstteam_carousel" class="carousel slide main-stuff-slider" data-ride="carousel" >
+                <div class="carousel-inner" role="listbox" >
+                    <div class="item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">ELGIN<br>INDRA Falnova</span>
+                                                <span class="position">PENYERANG</span>
+                                                <span class="number">9</span>
+                                            </span>
+                                            <img src="images/soccer/gins2.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>                    
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">AZIER<br>FAHRUROZI</span>
+                                                <span class="position">TENGAH</span>
+                                                <span class="number">30</span>
+                                            </span>
+                                            <img src="images/soccer/zir.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">DENIS<br>IRWIN</span>
+                                                <span class="position">TENGAH</span>
+                                                <span class="number">22</span>
+                                            </span>
+                                            <img src="images/common/denis.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">ERWIN<br>HK</span>
+                                                <span class="position">KEEPER</span>
+                                                <span class="number">11</span>
+                                            </span>
+                                            <img src="images/soccer/player-3.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>                    
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">LANI<br>JAY</span>
+                                                <span class="position">DEFENDER</span>
+                                                <span class="number">2</span>
+                                            </span>
+                                            <img src="images/soccer/player-2.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">SUHARTO<br>ATO</span>
+                                                <span class="position">DEFENDER</span>
+                                                <span class="number">33</span>
+                                            </span>
+                                            <img src="images/soccer/stuff-person.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">RAFIF<br>OOH</span>
+                                                <span class="position">TENGAH</span>
+                                                <span class="number">23</span>
+                                            </span>
+                                            <img src="images/soccer/player-3.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>                    
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">DALON<br>PINTARA</span>
+                                                <span class="position">TENGAH</span>
+                                                <span class="number">19</span>
+                                            </span>
+                                            <img src="images/common/dalon.jpg" alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">REZA<br>ALFAYED</span>
+                                                <span class="position">DEFENDER</span>
+                                                <span class="number">45</span>
+                                            </span>
+                                            <img src="images/soccer/stuff-person.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="staff-item">
+                                        <a href="staff.html">
+                                            <span class="info">
+                                                <span class="name">TARYUDI<br>TR</span>
+                                                <span class="position">TENGAH</span>
+                                                <span class="number">7</span>
+                                            </span>
+                                            <img src="images/soccer/player-3.jpg"  alt="person-slider">
+                                        </a>	
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                    
+                    <!-- Controls -->
+                    <a class="nav-arrow left-arrow" href="#firstteam_carousel" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="nav-arrow right-arrow" href="#firstteam_carousel" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--MAIN CLUB STAFF END-->
+
+<div class="main-breaking-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 col-xs-12 ">
+                <div class="break-title">
+                    <span>Breaking news</span>
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-9 col-xs-12">
+                <div id="main-breaking-list" class="carousel slide main-breaking-list" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="news.html" class=" ">
+                                <span class="date">
+                                    8 Agustus 2020<span>/</span>
+                                </span>	
+                                <span class="news">SEMANGAT PANTANG MENYERAH.</span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="news.html" class=" ">
+                                <span class="date">
+                                    10 Agustus 2020<span>/</span>
+                                </span>	
+                                <span class="news">PEMAIN BERSIAP SIAP UNTUK PERTANDINGAN PERTAMA.</span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="news.html" class=" ">
+                                <span class="date">
+                                    12 Agustus 2020<span>/</span>
+                                </span>	
+                                <span class="news">PERTANDIGAN KE DUA DENGAN SKOR 6-2.</span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="news.html" class=" ">
+                                <span class="date">
+                                    14 Agustus 2020<span>/</span>
+                                </span>	
+                                <span class="news">KALUR DIKALAHKAN OLEH CHOBER LEWAT ADU PENALTI</span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="news.html" class=" ">
+                                <span class="date">
+                                    17 Agustus 2020<span>/</span>
+                                </span>	
+                                <span class="news">PARA PEMAIN KALUR FC MELIHAT PERTANDINGAN FINAL.</span>
+                            </a>
+                        </div>
+                    </div>	
+                    <div class="arrow-wrap">
+                        <!-- Controls -->
+                        <a class="nav-arrow left-arrow" href="#main-breaking-list" role="button" data-slide="prev">
+                            <i class="fa fa-caret-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="nav-arrow right-arrow" href="#main-breaking-list" role="button" data-slide="next">
+                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MAIN TEAM STORE CONTAINER BEGIN-->
+<div class="bgstore">
+<div id="store1" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Team Store</h4>
+        </div>	
+        <div class="col-md-10 col-xs-9">
+            <ul class="tab-filters">
+                <li class="active"><a data-toggle="tab" href="#new">New</a></li>
+                <li><a data-toggle="tab" href="#hotdeals">hot deals</a></li>
+                <li><a data-toggle="tab" href="#officialapparel">Official apparel</a></li>
+            </ul>
+        </div>
+        <div class="col-md-2 col-xs-3 text-right">
+            
+                <a id="show-all-link" href="store.html">Show all</a>
+            	
+        </div>
+    </div>
+</div>
+  <!--MAIN TEAM STORE LIST BEGIN-->
+
+  <div class="section">
+    <div class="container">
+        <div class="tab-content">
+            <div id="new" class="tab-pane fade in active">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <span class="store-badge hot">hot</span>
+                                    <img src="images/soccer/kj1.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">T-Shirt Home</span>
+                                    <span class="price">IDR.170.000.</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <span class="store-badge new">new</span>
+                                    <img src="images/soccer/kj2.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">T-Shirt 2rd </span>
+                                    <span class="price">IDR.170.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <img src="images/soccer/J4.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">T-Shirt 3rd</span>
+                                    <span class="price">IDR.170.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <img src="images/soccer/J3.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">T-Shirt Keeper </span>
+                                    <span class="price">IDR.170.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="hotdeals" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <span class="store-badge hot">hot</span>
+                                    <img src="images/soccer/J4.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's T-Shirt Elite</span>
+                                    <span class="price">IDR.170.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <span class="store-badge new">new</span>
+                                    <img src="images/common/product-3.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's Long-Sleeve Running </span>
+                                    <span class="price">IDR.170.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <img src="images/common/product-2.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's T-Shirt </span>
+                                    <span class="price">IDR.170.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <img src="images/common/product-4.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's Long-Sleeve Running </span>
+                                    <span class="price">IDR.130.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="officialapparel" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <span class="store-badge hot">hot</span>
+                                    <img src="images/common/store-item-img.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's T-Shirt Elite</span>
+                                    <span class="price">IDR.140.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <span class="store-badge new">new</span>
+                                    <img src="images/common/product-3.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's Long-Sleeve Running </span>
+                                    <span class="price">IDR.190.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <img src="images/common/product-2.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's T-Shirt </span>
+                                    <span class="price">IDR.170.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="store-list-item">
+                            <div>
+                                <a href="product.html">
+                                    <img src="images/common/product-4.jpg" alt="product-image">
+                                </a>
+                                <div class="info">
+                                    <span class="name">Men's Long-Sleeve Running </span>
+                                    <span class="price">IDR.100.000</span>	
+                                    <div class="btn-wrap">
+                                        <button class="btn small">add to cart</button>
+                                        <button class="btn small">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--MAIN TEAM STORE LIST END-->
+
+<!---GALERI CLUBR-->
+<div class="baru">
+<div id="news" class="esport-team-landing-news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <center>
+                <h5 class="esport-landing-header">kalur news</h5>
+                </center>
+            </div>
+        </div>
+        <div class="row row-eq-height">
+            <div class="col-md-4">
+                <a href ="#" class="news-wprapper">
+                    <img src="images/common/elgin.jpg" alt="news-img">
+                    <div class="news-border">
+                        <span class="date">25 august</span>
+                        <span class="name">Internacional inertns</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-8">
+                <div class="row no-gutters row-eq-height">
+                    <div class="col-md-6">
+                        <a href ="#" class="news-wprapper">
+                            <img src="images/common/lap2.jpg" alt="news-img">
+                            <div class="news-border">
+                                <span class="date">25 august</span>
+                                <span class="name">Internacional inertns</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href ="#" class="news-wprapper">
+                            <img src="images/common/lap3.jpg" alt="news-img">
+                            <div class="news-border">
+                                <span class="date">25 august</span>
+                                <span class="name">Internacional inertns</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row no-gutters row-eq-height">
+                    <div class="col-md-6">
+                        <a href ="#" class="news-wprapper">
+                            <img src="images/common/lapsam1.jpg" alt="news-img">
+                            <div class="news-border">
+                                <span class="date">25 august</span>
+                                <span class="name">Internacional inertns</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href ="#" class="news-wprapper">
+                            <img src="images/common/lap1.jpg" alt="news-img">
+                            <div class="news-border">
+                                <span class="date">25 august</span>
+                                <span class="name">Internacional inertns</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
+</div>
+</div>
+
+<!--MAIN SPONSOR SLIDER BEGIN-->
+<section>
+    <div class="main-sponsor-slider-background">
+    <div id="main-sponsor-slider" class="carousel slide main-sponsor-slider" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-xs-4 text-center">
+                            <img class="sponsor-icons" src="images/common/nike4.png" alt="sponsor-image">	
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <img class="sponsor-icons" src="images/soccer/do.png" alt="sponsor-image">	
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <img  class="sponsor-icons dota-csgo-image" src="images/soccer/Logo Bank BCA.png" alt="sponsor-image">	
+                        </div>
+                    </div>
+                </div>	
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4 text-center">
+                            <img class="sponsor-icons" src="images/common/all-accor-live-limitless-logo-vector.png" alt="sponsor-image">	
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <img  class="sponsor-icons" src="images/soccer/id.jpg" alt="sponsor-image">	
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <img class="sponsor-icons dota-csgo-image" src="images/soccer/adidas.jpg" alt="sponsor-image">
+                        </div>
+                    </div>
+                </div>	
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4 text-center">
+                            <img class="sponsor-icons" src="images/soccer/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" alt="sponsor-image">	
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <img  class="sponsor-icons" src="images/soccer/shell.png" alt="sponsor-image">	
+                        </div>
+                        <div class="col-xs-4 text-center">
+                            <img class="sponsor-icons dota-csgo-image" src="images/soccer/top.jpg" alt="sponsor-image">
+                        </div>
+                    </div>
+                </div>	
+            </div>
+            <!-- Controls -->
+            <a class="nav-arrow left-arrow" href="#main-sponsor-slider" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                    <span class="sr-only">Previous</span>
+            </a>
+            <a class="nav-arrow right-arrow" href="#main-sponsor-slider" role="button" data-slide="next">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    <span class="sr-only">Next</span>
+            </a>
+        </div>	
+    </div>
+    </div>
+    <!--MAIN SPONSOR SLIDER END-->
+
+
+<!--CLUB GALLERY END-->
+<div class="bgktv">
+<div id="ktv" class="section">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <center>
+            <h5 class="esport-landing-header">KALUR TV+</h5>
+        </center>
+        </div>	
+        <div class="blok">
+            <div class="inner">
+   
+               <img src="images/common/samboja1.jpg" class="image1" alt="" height="400px" width="550px">
+           </div>
+                <a href="upcoming-match.html"><img src="images/common/samboja2.jpg" class="sider" alt="" height="400px" width="550px"></a>
+                  
+           </div>         
+</div>
+</div>
+<div class="PM">
+<center>
+<a href="#"><button type="button" class="vm">VIEW MORE</button>
+</center>
+<div class="premium">
+<h2>KALUR TV PREMIUM</h2>   
+</div>
+<h6 class="kprem1"><span class="kprem">KALUR TV Premium</span> is the best online option to watch every KALUR FC<br> game with an enhanced 'as live' experience.</h6>
+<center>
+    <a href="#"><button type="button" class="vm2">KALUR TV PREMIUM</button>
+    </center>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="bgimg">
+<center>
+    <a href="https://www.nike.com/id/"><img src="images/soccer/jmp.png" class="logoairfooter" alt="product-image" id="lf"></a>
+    <a href="http://m.indosatooredoo.com/"><img src="images/soccer/do.png" class="logoairfooter2" alt="product-image" id="lf"></a>
+ </center>
+  </div>
+
+    <!--FOOTER BEGIN-->
+<!--ESPORT TEAM LANDING CONTACT END-->
+
+<div class="esport-team-landing-footer">
+    <div class="container">
+        <div class="lgft">
+            <center>
+                <a href="https://www.ea.com/sports"><img src="images/soccer/nfl.png" class="logoairfooter8" alt="product-image" id="lf"></a>
+                <a href="https://all.accor.com/indonesia/index.en.shtml"><img src="images/soccer/ALLac-removebg-preview.png" class="logoairfooter9" alt="product-image" id="lf"></a>
+                <br>
+                <a href="https://www.bca.co.id/en/"><img src="images/soccer/Logo Bank BCA.png" class="logoairfooter6" alt="product-image" id="lf"></a>
+            <a href="http://m.indosatooredoo.com/"><img src="images/soccer/idompet-removebg-preview.png" class="logoairfooter4" alt="product-image" id="lf"></a>
+            <a href="https://www.indofood.com/"><img src="images/soccer/food.png" class="logoairfooter5" alt="product-image" id="lf"></a>
+            <a href="https://www.nike.com/id/"><img src="images/common/nike4.png" class="logoairfooter3" alt="product-image" id="lf"></a>
+            
+            <a href="http://Tokopedia.com/"><img src="images/soccer/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" class="logoairfooter7" alt="product-image" id="lf"></a>
+             <hr class="garis">
+            <div class="col-md-5">
+                <div class="header">Featured post
+                    <span>
+                        <a class="arrow left" href="#"><i class="fa fa-caret-left" aria-hidden="true"></i></a>
+                        <a class="arrow rigth" href="#"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                    </span>
+                </div>
+                <div class="news-slider footerSlide">
+                    <a href="#" class="news-wprapper">
+                        <img src="images/common/samboja1.jpg" alt="news-img">
+                        <span class="news-border">
+                            <span class="date">25 august</span>
+                            <span class="name">Internacional inertns</span>
+                        </span>
+                    </a>
+                </div>
+                   <div class="news-slider footerSlide">
+                    <a href="#" class="news-wprapper">
+                        <img src="images/common/samboja2.jpg" alt="news-img">
+                        <span class="news-border">
+                            <span class="date">26 august</span>
+                            <span class="name">Internacional</span>
+                        </span>
+                    </a>
+                </div>
+                   <div class="news-slider footerSlide">
+                    <a href="#" class="news-wprapper">
+                        <img src="images/common/lapsam2.jpg" alt="news-img">
+                        <span class="news-border">
+                            <span class="date">28 august</span>
+                            <span class="name">Internacional inertns</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <span class="header">contact us</span>
+                <span class="welcome">welcome to family</span>
+                <ul class="contact-list">
+                    <li><span>INDRAMAYU, KANDANGHAUR DS.ERETAN WETAN BLOK PANG PANG 2</span></li>
+                    <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>+62 83148319061</span></li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="https://mail.google.com/mail/u/0/?hl=en#inbox">officialkalurfc@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <span class="header">about us</span>
+                <p>KALUR FC DIDIRIKAN TAHUN 2020 YANG BERTEMPAT DI BLOK PANG PANG 2, PADA SAAT PERTANDINGAN KUWU CUP 17 AGUSTUS 2020</p>
+            </div>
+           <div id="top">
+                <a href="#top"><img src="images/common/logodark.png" class="logofot" alt="product-image"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--ESPORT TEAM LANDING FOOTER LINKS BEGIN-->
+<div id="footer" class="esport-team-landing-footer-links">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li class="facebook">
+                        <a href="#">
+                            <span>facebook</span>
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#">
+                            <span>twitter</span>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="google">
+                        <a href="#">
+                            <span>google+</span>
+                            <i class="fa fa-google" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="instagram">
+                        <a href="#">
+                            <span>instagram</span>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="youtube">
+                        <a href="#">
+                            <span>youtube</span>
+                            <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--ESPORT TEAM LANDING FOOTER LINKS END-->
+
+
+<!--FOOTER END-->
+
+
+    <script type="text/javascript" src="js/library/jquery.js"></script>
+<script type="text/javascript" src="js/library/jquery-ui.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.js"></script>
+<script type="text/javascript" src="js/library/jquery.sticky.js"></script>
+<script type="text/javascript" src="js/library/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/library/jcarousel.connected-carousels.js"></script>
+<script type="text/javascript" src="js/library/owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/progressbar.js"></script>
+<script type="text/javascript" src="js/library/jquery.bracket.min.js"></script>
+<script type="text/javascript" src="js/library/chartist.js"></script>
+<script type="text/javascript" src="js/library/Chart.js"></script>
+<script type="text/javascript" src="js/library/fancySelect.js"></script>
+<script type="text/javascript" src="js/library/isotope.pkgd.js"></script>
+<script type="text/javascript" src="js/library/imagesloaded.pkgd.js"></script>
+
+<script type="text/javascript" src="js/jquery.team-coundown.js"></script>
+<script type="text/javascript" src="js/matches-slider.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/matches_broadcast_listing.js"></script>
+<script type="text/javascript" src="js/news-line.js"></script>
+<script type="text/javascript" src="js/match_galery.js"></script>
+<script type="text/javascript" src="js/main-club-gallery.js"></script>
+<script type="text/javascript" src="js/product-slider.js"></script>
+<script type="text/javascript" src="js/circle-bar.js"></script>
+<script type="text/javascript" src="js/standings.js"></script>
+<script type="text/javascript" src="js/shop-price-filter.js"></script>
+<script type="text/javascript" src="js/timeseries.js"></script>
+<script type="text/javascript" src="js/radar.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/diagram.js"></script>
+<script type="text/javascript" src="js/bi-polar-diagram.js"></script>
+<script type="text/javascript" src="js/label-placement-diagram.js"></script>
+<script type="text/javascript" src="js/donut-chart.js"></script>
+<script type="text/javascript" src="js/animate-donut.js"></script>
+<script type="text/javascript" src="js/advanced-smil.js"></script>
+<script type="text/javascript" src="js/svg-path.js"></script>
+<script type="text/javascript" src="js/pick-circle.js"></script>
+<script type="text/javascript" src="js/horizontal-bar.js"></script>
+<script type="text/javascript" src="js/gauge-chart.js"></script>
+<script type="text/javascript" src="js/stacked-bar.js"></script>
+
+<script type="text/javascript" src="js/library/chartist-plugin-legend.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-threshold.js"></script>
+<script type="text/javascript" src="js/library/chartist-plugin-pointlabels.js"></script>
+
+<script type="text/javascript" src="js/treshold.js"></script>
+<script type="text/javascript" src="js/visible.js"></script>
+<script type="text/javascript" src="js/anchor.js"></script>
+<script type="text/javascript" src="js/landing_carousel.js"></script>
+<script type="text/javascript" src="js/landing_sport_standings.js"></script>
+<script type="text/javascript" src="js/twitterslider.js"></script>
+<script type="text/javascript" src="js/champions.js"></script>
+<script type="text/javascript" src="js/landing_mainnews_slider.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/video_slider.js"></script>
+<script type="text/javascript" src="js/footer_slides.js"></script>
+<script type="text/javascript" src="js/player_test.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+	<!--DEMO SWITCHER BEGIN-->
+
+<!--DEMO SWITCHER END-->
+
+<script type="text/javascript" src="dev-assets/demo-switcher.js"></script>
+</body>
+
+
+</html>
